@@ -1,0 +1,17 @@
+/* Set up the container as a grid */
+.image-container {
+  display: grid;
+  /* Create as many columns as will fit with a minimum width of 200px for each */
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 10px; /* Adjust the gap between images as desired */
+  max-width: 1200px; /* Optional: constrain the maximum width */
+  margin: 0 auto; /* Centers the container on the page */
+  padding: 10px;
+}
+
+/* Make images fill the available grid cell while keeping their aspect ratio */
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

@@ -1,0 +1,168 @@
+.sectionGetInTouch {
+  width: 100%;
+  height: 50vh;
+  margin: auto;
+  display: grid;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+}
+
+.divGetInTouch {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  max-height: 100%;
+  margin: auto;
+}
+
+.divGitPhrase {
+  display: grid;
+  justify-content: center;
+  grid-gap: 1rem;
+  text-align: start;
+}
+
+.gitPhraseOne {
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* .gitPhrase span {
+  font-size: 3.5rem;
+} */
+
+.gitPhrase {
+  font-size: 3.5rem;
+  color: #fff;
+  margin: auto;
+}
+
+.divGITButton {
+  display: flex;
+  cursor: pointer;
+  border: none;
+  margin: auto 0;
+}
+
+.buttonGITChoose {
+  border: none;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.textGITButton {
+  font-size: 0.8rem;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 1.1rem 2rem 1.1rem 2rem;
+  color: #000;
+  border-radius: 8px;
+}
+
+.textGITButton:hover {
+  background-color: #000;
+  transition: 1.5s ease-in-out;
+}
+
+.textGITButton:hover {
+  color: #fff;
+}
+
+.gitPhraseFirst {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 900;
+  margin: auto;
+}
+
+.gitPhraseSecond {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 900;
+  margin: auto;
+  padding: 0.5rem 2rem 0.5rem 0rem;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+}
+
+@media only screen and (min-width: 1500px) {
+  .gitPhrase {
+    font-size: 1.3rem;
+  }
+  .gitContactButton-1 {
+    font-size: 1.3rem;
+    padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sectionGetInTouch {
+    width: 100%;
+  }
+
+  .divGitPhrase {
+    display: grid;
+    justify-content: center;
+    grid-gap: 0.5rem;
+    text-align: start;
+  }
+
+  .divGetInTouch {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    max-height: 100%;
+    margin: auto;
+  }
+
+  .gitPhrase {
+    font-size: 3.5rem;
+    color: #fff;
+    margin: auto;
+  }
+
+  /* .gitPhrase {
+    font-size: 0.7rem;
+  } */
+
+  .gitContactButton-1 {
+    font-size: 0.7rem;
+    padding: 0.2em 1.15rem 0.2rem 1.15rem;
+  }
+
+  .divGITButton {
+    display: flex;
+    cursor: pointer;
+    border: none;
+    margin: 1rem 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sectionGetInTouch {
+    width: 100%;
+  }
+
+  .divGetInTouch {
+    display: grid;
+  }
+
+  /* .gitPhraseOne {
+  } */
+
+  /* 
+  .gitPhrase {
+    font-size: 0.6rem;
+  } */
+
+  .gitPhraseFirst {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .gitPhraseSecond {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}

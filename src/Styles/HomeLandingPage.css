@@ -1,0 +1,257 @@
+.sectionLandingPageImages {
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+  height: 100%;
+  margin: auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.divLandingPageImages {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  height: 100%;
+  margin: auto;
+  max-width: 100%;
+}
+
+.landingPageImage {
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(70%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  position: absolute;
+}
+
+.sectionLandingPageImages,
+.divLandingPageImages {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.divLandingPageImages,
+.projectImages {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divLandingPageButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  margin: 0;
+  width: 20%;
+  height: 6rem;
+  background-color: #fff;
+  padding: 0 2rem;
+}
+
+.ButtonLeft {
+  background-color: transparent;
+  border: none;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.ButtonLeft span {
+  color: #000;
+  background-color: transparent;
+  font-size: 2.5rem;
+}
+
+.ButtonRight {
+  background-color: transparent;
+  border: none;
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.ButtonRight span {
+  color: #000;
+  background-color: transparent;
+  font-size: 2.5rem;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 45px;
+  right: 105px;
+  width: auto;
+  margin: 0;
+  z-index: 1000; /* Keeps them on top of other elements */
+}
+
+.motionDiv {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  z-index: 2;
+}
+
+.headingMotionDiv {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+.motionDivText {
+  height: 100vh;
+  width: 50%;
+  margin-left: 15rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  z-index: 2;
+}
+
+.motionDivText p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.motionDiv .headingMotionDiv {
+  opacity: 0;
+  animation: animate 3s ease-in-out 0.6s 1 forwards;
+}
+
+.motionDiv .motionDivText {
+  opacity: 0;
+  animation: animate 4s ease-in-out 0.6s 1 forwards;
+}
+
+@keyframes animate {
+  from {
+    opacity: 0;
+    transform: translate(0, 100px);
+    filter: blur(33px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0);
+    filter: blur(0);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .ButtonLeft span {
+    font-size: 3rem;
+  }
+  .ButtonRight span {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .motionDiv {
+    left: 3%;
+  }
+
+  .headingMotionDiv {
+    font-weight: 900;
+    font-size: 3rem;
+  }
+
+  .motionDivText {
+    height: 100vh;
+    width: 50%;
+    margin-left: 10rem;
+  }
+
+  .motionDivText p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 25px;
+  }
+
+  .divLandingPageButtons {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ButtonLeft span {
+    font-size: 1.5rem;
+  }
+
+  .ButtonRight span {
+    font-size: 1.5rem;
+  }
+
+  .motionDiv {
+    left: 3%;
+  }
+
+  .headingMotionDiv {
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0px;
+  }
+
+  .motionDivText {
+    height: 100vh;
+    width: 85%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  .motionDivText p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 25px;
+  }
+
+  .divLandingPageButtons {
+    width: 40%;
+  }
+
+  .slick-dots {
+    right: 70px;
+    width: auto;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .divLandingPageButtons {
+    width: 70%;
+  }
+
+  .slick-dots {
+    bottom: 45px;
+    right: 85px;
+    width: auto;
+  }
+}

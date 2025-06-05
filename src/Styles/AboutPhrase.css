@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Playfair+Display:wght@500&family=Poppins:wght@100;400&display=swap");
+
+.sectionAboutPhrase {
+  display: grid;
+  width: 100%;
+  height: 50vh;
+  margin: 10rem auto 10rem auto;
+  background-image: url(../Components/Assets/MeridianTowers/MT2.webp);
+  filter: brightness(0.8);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.divSectionPhrase {
+  width: 70%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headingAboutPhrase {
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 5px;
+  margin-bottom: 1rem;
+}
+
+.textAboutPhrase {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 30px;
+}
+
+@media screen and (min-width: 1500px) {
+}
+
+@media screen and (max-width: 1000px) {
+  .sectionAboutPhrase {
+    display: grid;
+    width: 100%;
+    margin: 0rem auto 5rem auto;
+  }
+
+  .divSectionPhrase {
+    width: 95%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .headingAboutPhrase {
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+
+  .textAboutPhrase {
+    font-size: 0.8rem;
+    color: #fff;
+    line-height: 25px;
+  }
+}

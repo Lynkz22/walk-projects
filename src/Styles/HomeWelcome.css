@@ -1,0 +1,168 @@
+.sectionHomeWelcome {
+  width: 80%;
+  min-height: 100vh;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
+.divHomeWelcome {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  row-gap: 1.5em;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.divHeading {
+  display: grid;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: 1.2rem;
+  text-align: start;
+  font-family: "Poppins", cursive;
+  letter-spacing: 4px;
+  color: #000;
+  font-weight: 400;
+}
+
+.divHeading h1 {
+  color: #000;
+}
+
+.heading1 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  text-align: start;
+  font-family: "Poppins", cursive;
+  letter-spacing: 8px;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: #fe0000;
+}
+
+.welcomeContent {
+  font-size: 1rem;
+  text-align: start;
+  line-height: 35px;
+}
+
+.divWelcomeButton {
+  display: flex;
+  cursor: pointer;
+  border: none;
+}
+
+.buttonHomeWelcome {
+  border: none;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.textWelcomeButton {
+  font-size: 0.8rem;
+  color: #000;
+  letter-spacing: 2px;
+  padding: 1.1rem 2rem 1.1rem 2rem;
+  border-radius: 8px;
+}
+
+.textWelcomeButton:hover {
+  background-color: #000;
+  transition: 1.5s ease-in-out;
+}
+
+.textWelcomeButton:hover {
+  color: #fff;
+}
+
+.divHomeWelcomeImage {
+  width: 70%;
+  height: 70vh;
+  margin: auto;
+}
+
+.homeWelcomeImage {
+  box-shadow: 0 0 10px 1px #0a0e7c;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 1600px) {
+  /* .sectionHomeWelcome {
+    max-height: 100vh;
+  } */
+
+  .homeWelcomeImage {
+    position: center;
+    width: 70%;
+    max-height: 95%;
+  }
+
+  .divHomeWelcomeImage {
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sectionHomeWelcome {
+    display: block;
+    width: 100%;
+    margin: 10rem auto;
+    min-height: 100vh;
+  }
+
+  .divHomeWelcome {
+    width: 90%;
+    row-gap: 0.5em;
+  }
+
+  .divHomeWelcomeImage {
+    width: 100%;
+    height: 50vh;
+    margin-top: 7rem;
+  }
+
+  .homeWelcomeImage {
+    box-shadow: none;
+    /* width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover; */
+  }
+
+  .heading {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.2rem;
+  }
+
+  .heading1 {
+    font-size: 1.2rem;
+    letter-spacing: 8px;
+  }
+
+  .welcomeContent {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .textWelcomeButton {
+    /* font-size: 0.9rem; */
+    letter-spacing: 0;
+  }
+}

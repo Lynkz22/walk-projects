@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Playfair+Display:wght@500&family=Poppins:wght@100;400&display=swap");
+
+.sectionSOV {
+  width: 85%;
+  margin: auto;
+}
+
+.divServicesHead-2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.divServicesHead-3 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 900;
+  text-align: start;
+  font-family: "Poppins", cursive;
+  letter-spacing: 5px;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: #fe0000;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.divServicesHead-3::after {
+  content: "";
+  width: 2.4em;
+  height: 9px;
+  background: #fe0000;
+  display: block;
+  transition: 0.5s;
+}
+
+.sectionMission {
+  width: 90%;
+  min-height: 60vh;
+  display: flex;
+  margin: auto;
+}
+
+.divMission {
+  width: 30%;
+  height: 90%;
+  background-color: #fff;
+  padding: 3em 1.5em;
+  margin: auto;
+  border-radius: 50px;
+  /* border: 4px solid #e10600; */
+  opacity: 1;
+  /* transform: translateX(-15%); */
+  transition: all 1.5s ease-in-out;
+  align-self: center;
+}
+
+/* .show1 {
+  opacity: 1;
+  transform: translateX(0);
+} */
+
+.divMission:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.missionName {
+  text-align: left;
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.missionTextCore {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.divMission-2 {
+  width: 30%;
+  height: 90%;
+  background-color: #fff;
+  padding: 3em 1.5em;
+  margin: auto;
+  border-radius: 50px;
+
+  /* border: 4px solid #e10600; */
+  opacity: 1;
+  /* transform: translateX(15%); */
+  transition: all 1.5s ease-in-out;
+}
+
+.divMission-2:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.divMission-1 {
+  width: 30%;
+  min-height: 100%;
+  background-color: #e10600;
+  padding: 3em 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.divMission-1:hover {
+  transition: transform 2s ease-in-out;
+  transform: scale(1.03);
+  transition: 2s;
+  background-color: #e10600;
+}
+
+.missionName-1 {
+  color: #fff;
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.headingCore {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sectionMission {
+    max-width: 87%;
+    display: block;
+    margin-top: 1.5em;
+    min-height: 100vh;
+  }
+
+  .divMission {
+    width: 100%;
+    height: 90%;
+    border-radius: 0px;
+  }
+
+  .divMission-1 {
+    width: 100%;
+    padding: 3em 1.5em;
+    margin: auto;
+    border-radius: 0px;
+  }
+
+  .divMission-2 {
+    width: 100%;
+    height: 90%;
+    border-radius: 0px;
+  }
+
+  .missionName {
+    text-align: center;
+    font-size: 2.1em;
+  }
+
+  .sectionSOV {
+    min-height: 80vh;
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .divServicesHead-3 {
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 8px;
+  }
+
+  .divServicesHead-3::after {
+    margin-left: 35%;
+  }
+
+  .sectionMission {
+    max-width: 90%;
+  }
+
+  .missionName {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .missionName-1 {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  /* .divMission-2 {
+    transform: translateX(7%);
+  }
+
+  .divMission {
+    transform: translateX(-7%);
+  } */
+}
+
+@media only screen and (min-width: 1500px) {
+  .missionText {
+    font-size: 1.3em;
+    line-height: 35px;
+  }
+
+  .missionText-1 {
+    font-size: 1.3em;
+    line-height: 35px;
+  }
+
+  .sectionMission {
+    width: 90%;
+    min-height: 45vh;
+    display: flex;
+    margin: auto;
+  }
+}

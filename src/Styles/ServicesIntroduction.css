@@ -1,0 +1,27 @@
+.sectionServicesIntroduction {
+  width: 90%;
+  height: auto;
+  margin: 5rem auto 10rem auto;
+}
+
+.textServicesIntroduction {
+  width: 85%;
+  font-size: 1.1rem;
+  color: #000;
+  text-align: start;
+  margin: auto;
+  line-height: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+  .sectionServicesIntroduction {
+    width: 100%;
+    height: auto;
+    margin: 10rem auto;
+  }
+
+  .textServicesIntroduction {
+    font-size: 0.8rem;
+    line-height: 30px;
+  }
+}

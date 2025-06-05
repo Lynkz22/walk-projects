@@ -1,0 +1,128 @@
+.sectionTeam {
+  width: 90%;
+  margin: 10rem auto 0 auto;
+  text-align: start;
+}
+
+.divTeamMembersHeading {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: start;
+  font-family: "Poppins", cursive;
+  letter-spacing: 4px;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.divTeamMembersHeading {
+  text-align: center;
+}
+
+.teamMembers {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.teamMembers-1 {
+  display: grid;
+  width: 20%;
+}
+
+.teamMembersName h1 {
+  font-size: 0.9rem;
+}
+
+.teamMembersName p {
+  font-size: 0.9rem;
+  color: #180e7f;
+  margin-bottom: 1rem;
+}
+
+.divTeamMembersImage {
+  height: 7rem;
+  width: 7rem;
+  margin: auto;
+}
+
+.teamMembersImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.teamMembersName {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.teamMembersText {
+  width: 60%;
+  text-align: start;
+}
+
+.teamMembersText p {
+  text-align: start;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .sectionTeam {
+    width: 90%;
+    margin: 5rem auto 5rem auto;
+    text-align: start;
+  }
+
+  .divTeamMembersHeading {
+    font-size: 0.8rem;
+    color: #180e7f;
+    margin-bottom: 0.5rem;
+  }
+
+  .divTeamMembersImage {
+    height: 4rem;
+    width: 4rem;
+    /* margin: auto; */
+  }
+
+  .teamMembersImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .teamMembers-1 h1 {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .teamMembersName p {
+    font-size: 0.5rem;
+    color: #180e7f;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  /* 
+  .teamMembers {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  } */
+
+  .teamMembersName {
+    text-align: start;
+  }
+
+  .teamMembersText {
+    width: 90%;
+    font-size: 0.6rem;
+  }
+}

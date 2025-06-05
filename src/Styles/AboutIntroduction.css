@@ -1,0 +1,233 @@
+.sectionAboutIntroduction {
+  width: 80%;
+  height: auto;
+  margin: 5rem auto 10rem auto;
+}
+
+.textAboutIntroduction {
+  width: 85%;
+  font-size: 1rem;
+  color: #000;
+  text-align: start;
+  margin: auto;
+  line-height: 7500px;
+}
+
+.divOurCompany {
+  width: 85%;
+  font-size: 1.1rem;
+  color: #000;
+  text-align: start;
+  margin: auto;
+  line-height: 40px;
+  margin-top: 2rem;
+}
+
+.sectionMissionNew {
+  width: 90%;
+  min-height: 60vh;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.divMissionHigh {
+  width: 90%;
+  min-height: 100%;
+  background-color: #fff;
+  color: #000;
+  padding: 3em 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.divMissionHigh:hover {
+  transition: transform 2s ease-in-out;
+  transform: scale(1.03);
+  transition: 2s;
+  color: #000;
+}
+
+.headingAboutIntroduction {
+  color: #000;
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.textAboutIntroduction {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 35px;
+}
+
+.divMissionMedium {
+  width: 90%;
+  height: 80%;
+  background-color: #fff;
+  padding: 5em 1.5em;
+  margin: auto;
+  border-radius: 50px;
+  opacity: 1;
+  transition: all 1.5s ease-in-out;
+}
+
+.divMissionMedium:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.divMissionSmall {
+  width: 90%;
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+  padding: 3em 1.5em;
+  margin: auto;
+  border-radius: 50px;
+  opacity: 1;
+  transition: all 1.5s ease-in-out;
+  align-self: center;
+}
+
+.divMissionSmall:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.headingOtherAboutHeading {
+  text-align: left;
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.headingOurCompany {
+  background: linear-gradient(to right, #0000ff, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-size: 1.2rem;
+}
+
+.textOurCompany {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sectionMissionNew {
+    display: block;
+    margin-top: 1.5em;
+    min-height: 100vh;
+  }
+
+  .divMissionHigh {
+    width: 100%;
+    padding: 3em 1.5em;
+    margin: auto;
+    border-radius: 0px;
+  }
+
+  .divMissionMedium {
+    width: 100%;
+    height: 90%;
+    border-radius: 0px;
+  }
+
+  .divMissionSmall {
+    width: 100%;
+    height: 90%;
+    border-radius: 0px;
+  }
+
+  .headingOtherAboutHeading {
+    text-align: center;
+    font-size: 2.1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sectionAboutIntroduction {
+    width: 100%;
+    height: auto;
+    margin: 10rem auto;
+  }
+
+  .textAboutIntroduction {
+    font-size: 0.8rem;
+    line-height: 30px;
+  }
+
+  .divOurCompany {
+    margin-top: 0.5rem;
+  }
+
+  .headingOurCompany {
+    font-size: 1.1rem;
+  }
+
+  .sectionMissionNew {
+    max-width: 100%;
+  }
+
+  .divMissionMedium {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: start;
+  }
+
+  .divMissionHigh {
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+
+  .divMissionSmall {
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+
+  .textOurCompany {
+    font-size: 0.8rem;
+    line-height: 30px;
+    text-align: start;
+  }
+
+  .headingOtherAboutHeading {
+    text-align: center;
+    font-family: "Poppins", cursive;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .missionText {
+    font-size: 1.3em;
+    line-height: 35px;
+  }
+
+  .missionText-1 {
+    font-size: 1.3em;
+    line-height: 35px;
+  }
+
+  .sectionMission {
+    width: 90%;
+    min-height: 45vh;
+    display: flex;
+    margin: auto;
+  }
+}

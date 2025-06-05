@@ -1,0 +1,27 @@
+.sectionProjectPictures {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Adds space between images */
+  justify-content: center;
+  margin: auto;
+}
+
+.divProjectImages {
+  width: 250px; /* Adjust as needed */
+  height: 400px;
+  /* margin: auto; */
+  justify-self: right;
+}
+
+.projectImages {
+  box-shadow: 0 0 10px 1px #0a0e7c;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+
+.sectionProjectPictures > .divHomeChooseImage {
+  flex: 200px;
+}

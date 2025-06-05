@@ -1,0 +1,215 @@
+.divHomeProjectsHeading {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto 4rem 0;
+}
+
+.divHomeProjectsHeading h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: start;
+  font-family: "Poppins", cursive;
+  letter-spacing: 5px;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: #fe0000;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.sectionServicesAbout {
+  width: 80%;
+  margin: auto;
+}
+
+.divServicesAbout-1 {
+  width: 70%;
+  margin: auto;
+}
+
+.divServicesAboutFlex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto 3rem 0;
+  gap: 10rem;
+}
+
+.divServicesAboutText {
+  width: 100%;
+  height: 90vh;
+  text-align: start;
+  position: relative;
+}
+
+.divOfImage {
+  width: 100%;
+  height: 87%;
+  margin: auto;
+}
+
+.homeProjectImage {
+  /* box-shadow: 0 0 10px 1px #0a0e7c; */
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+
+.divOfText {
+  background-color: #f2f3f5;
+  width: 18rem;
+  position: absolute;
+  left: 0;
+  bottom: 2rem;
+  padding: 0.9rem 2rem 1rem 0.5rem;
+}
+
+.divOfText h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.divOfText p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.divServicesAboutText-1 {
+  width: 100%;
+  height: 90vh;
+  text-align: start;
+  position: relative;
+}
+
+.topBcg {
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f2f3f5;
+}
+
+@media screen and (max-width: 1200px) {
+  .sectionServicesAbout {
+    width: 95%;
+    margin: auto;
+  }
+
+  .divServicesAbout-1 {
+    width: 100%;
+  }
+
+  .divServicesAboutText {
+    height: 70vh;
+  }
+
+  .divServicesAboutText-1 {
+    height: 70vh;
+    border: none;
+    background-color: transparent;
+  }
+
+  .divServicesAboutFlex {
+    margin: 0 auto 3rem 0;
+    gap: 3rem;
+  }
+
+  .divOfText {
+    bottom: 2rem;
+    padding: 3rem 0 0.5em 1rem;
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sectionServicesAbout {
+    width: 97%;
+    margin: auto;
+  }
+
+  .divServicesAboutText-1 {
+    width: 98%;
+    padding-left: 0.5rem;
+  }
+
+  .divServicesAbout h1 {
+    font-size: 1.2rem;
+    color: #180e7f;
+    margin-bottom: 0.5rem;
+  }
+
+  .divServicesAboutHeading {
+    font-size: 1rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .divServicesAboutTextContent {
+    font-size: 0.9rem;
+  }
+
+  .divHomeProjectsHeading h2 {
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+
+  .divServicesAbout-1 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .divServicesAboutFlex {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    gap: 3rem;
+  }
+
+  .divHomeProjectsHeading {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 0rem 0;
+  }
+
+  .divServicesAboutText {
+    height: 60vh;
+  }
+
+  .divServicesAboutText-1 {
+    height: 60vh;
+  }
+
+  .divOfText {
+    bottom: 2rem;
+    padding: 1rem 0 0.5em 1rem;
+    width: 13rem;
+  }
+
+  .divOfText h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  .divOfText p {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 4px;
+  }
+}
