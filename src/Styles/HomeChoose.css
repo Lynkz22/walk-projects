@@ -27,7 +27,7 @@
 }
 
 .headingChoose {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 900;
   text-align: start;
   font-family: "Poppins", cursive;
@@ -46,7 +46,7 @@
 }
 
 .ChooseContent {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: start;
   line-height: 35px;
   margin-bottom: 1rem;
@@ -136,14 +136,20 @@
   }
 
   .headingChoose {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 900;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     width: 100%;
     margin: auto;
   }
 
   .ChooseContent {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    line-height: 25px;
+  }
+
+  .textChooseButton {
+    font-size: 0.7rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
   }
 }

@@ -48,17 +48,16 @@
 .navMenu {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
+  grid-gap: 0;
   list-style: none;
-  align-items: center;
+  align-items: end;
   /* margin-bottom: 1rem; */
-  justify-content: center;
+  justify-content: end;
 }
 
 .navLinks {
   text-decoration: none;
   color: #fff;
-  font-size: 34rem;
   font-weight: 400;
   padding: 0.7rem 1.5rem;
   white-space: nowrap;
@@ -71,7 +70,7 @@
   content: "";
   width: 0%;
   height: 4px;
-  background: #ff2400;
+  background: #fe0000;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -139,7 +138,7 @@
     align-items: center;
     background-color: #000;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     position: absolute;
     top: -100vh;
     left: 0;
@@ -149,7 +148,7 @@
     margin: auto;
     text-align: center;
     transition: 0.3s ease-in-out;
-    border-radius: 13px;
+    border-radius: 30px;
   }
 
   .navLinksList:hover::after {
@@ -195,6 +194,16 @@
   .navBarName span {
     font-size: 1.4rem;
   }
+
+  body.no-scroll {
+    overflow: hidden;
+  }
+
+  .divNameLogo {
+    display: block;
+    position: absolute;
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -210,9 +219,10 @@
   }
 
   .navbarLogoImage {
-    width: 3rem;
-    height: 3rem;
-    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    display: block !important;
+    visibility: visible !important;
   }
 
   .navBarName {
@@ -229,5 +239,5 @@
 }
 
 .navLinks {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }

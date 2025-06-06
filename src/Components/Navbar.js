@@ -7,24 +7,31 @@ import Logo from "../Components/Assets/Logo/Logo.png";
 class Navbar extends Component {
   state = { clicked: false };
   handleClick = () => {
+    // this.setState({ clicked: !this.state.clicked });
     this.setState({ clicked: !this.state.clicked });
-  };
 
-  componentDidMount() {
-    window.addEventListener("scroll", this.changeNavbarBackground);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("scroll", this.changeNavbarBackground);
-  }
-
-  changeNavbarBackground = () => {
-    if (window.scrollY >= 50) {
-      document.querySelector(".navbarItems").classList.add("navbarScrolled");
+    if (!this.state.clicked) {
+      document.body.classList.add("no-scroll"); // Disable scrolling
     } else {
-      document.querySelector(".navbarItems").classList.remove("navbarScrolled");
+      document.body.classList.remove("no-scroll"); // Enable scrolling
     }
   };
+
+  // componentDidMount() {
+  //   window.addEventListener("scroll", this.changeNavbarBackground);
+  // }
+
+  // componentWillUnmount() {
+  //   window.removeEventListener("scroll", this.changeNavbarBackground);
+  // }
+
+  // changeNavbarBackground = () => {
+  //   if (window.scrollY >= 50) {
+  //     document.querySelector(".navbarItems").classList.add("navbarScrolled");
+  //   } else {
+  //     document.querySelector(".navbarItems").classList.remove("navbarScrolled");
+  //   }
+  // };
 
   render() {
     return (

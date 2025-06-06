@@ -43,6 +43,7 @@ const AboutIntroduction = () => {
             analyze, and develop cost-effective, regulatory compliant designs
             that meet your specific needs without compromising on quality.
           </p>
+          <p></p>
         </div>
 
         <div className="divOurCompany">

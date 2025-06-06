@@ -52,7 +52,7 @@
 }
 
 .welcomeContent {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: start;
   line-height: 35px;
 }
@@ -153,16 +153,18 @@
 
   .heading1 {
     font-size: 1.2rem;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
   }
 
   .welcomeContent {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-bottom: 1rem;
+    line-height: 25px;
   }
 
   .textWelcomeButton {
-    /* font-size: 0.9rem; */
+    font-size: 0.7rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
     letter-spacing: 0;
   }
 }

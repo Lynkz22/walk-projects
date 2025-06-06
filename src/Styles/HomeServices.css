@@ -75,7 +75,7 @@
   bottom: 10px; /* Start at the bottom */
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.3em;
+  font-size: 1.1rem;
   font-weight: 500;
   text-align: center;
   color: #fff;
@@ -163,13 +163,17 @@
 }
 
 .textHomeServices {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: #fff;
   text-align: center;
   width: 100%;
   line-height: 30px;
   margin-top: 3rem;
+}
+
+.textHomeSection {
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -183,18 +187,18 @@
   }
 
   .headingHomeServices {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 900;
-    letter-spacing: 8px;
+    letter-spacing: 3px;
   }
 
   .textHomeSection {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 500;
     max-width: 85%;
     margin: auto;
     letter-spacing: 0px;
-    line-height: 30px;
+    line-height: 25px;
   }
 
   .divHomeServices {
@@ -207,7 +211,7 @@
   }
 
   .animatedText {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .linkHomeServices:hover .animatedText {
@@ -216,11 +220,12 @@
   }
 
   .textHomeServices {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    line-height: 25px;
     margin-top: 3rem;
     line-height: normal;
     letter-spacing: 0px;
-    min-width: 100%;
+    width: 90%;
   }
 
   .divText {

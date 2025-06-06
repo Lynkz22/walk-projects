@@ -70,8 +70,9 @@ export class HomeLandingPage extends Component {
                       "Engineering Solutions Tailored To You" <br />
                       From essential infrastructure to complex building systems,
                       our design are meticulouslycrafted to integrate seamlessly
-                      and optimize performance. Discover how intelligent MEP
-                      Engineering an power your projects to success.
+                      and optimize performance.
+                      {/* Discover how intelligent MEP
+                      Engineering an power your projects to success. */}
                     </p>
                   </motion.div>
                 </motion.div>
@@ -107,10 +108,9 @@ export class HomeLandingPage extends Component {
                     <p>
                       "Reliable Systems for Future Generation" <br />
                       Our team brings unparalled expertise, meticulous planning,
-                      and robust execution to every project. With a focus on
-                      quality components and precision installation, we ensure
-                      your MEP systems deliver optimal performance and stand the
-                      test of time.
+                      and robust execution to every project. We ensure your MEP
+                      systems deliver optimal performance and stand the test of
+                      time.
                     </p>
                   </motion.div>
                 </motion.div>
@@ -146,9 +146,10 @@ export class HomeLandingPage extends Component {
                     <p>
                       "Your Vision, Powered from Concept to Completion" <br />
                       We manage the entire MEP project lifecycle, from initial
-                      coordination to installation and commission. Our focus is
+                      coordination to installation and commission.
+                      {/* Our focus is
                       a seamless process, ensuring your systems work perfectly
-                      so you don't have to worry.
+                      so you don't have to worry. */}
                     </p>
                   </motion.div>
                 </motion.div>
@@ -183,8 +184,8 @@ export class HomeLandingPage extends Component {
                   >
                     <p>
                       "Intelligent Systems For a Brighter Future" <br />
-                      We engineer cutting-edge MEP solutions that not only meet
-                      today's demands but also anticipate tomorrow's challenges.
+                      {/* We engineer cutting-edge MEP solutions that not only meet
+                      today's demands but also anticipate tomorrow's challenges. */}
                       Our focus on smart, adaptable infrastructure eensures your
                       projects are future-ready, driving efficiency and
                       progress.

@@ -69,6 +69,13 @@
   color: #fff;
 }
 
+.gitPhrase {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 900;
+  margin: auto;
+}
+
 .gitPhraseFirst {
   font-size: 3rem;
   color: #fff;
@@ -116,11 +123,11 @@
     margin: auto;
   }
 
-  .gitPhrase {
+  /* .gitPhrase {
     font-size: 3.5rem;
     color: #fff;
     margin: auto;
-  }
+  } */
 
   /* .gitPhrase {
     font-size: 0.7rem;
@@ -146,6 +153,8 @@
 
   .divGetInTouch {
     display: grid;
+    grid-gap: 3rem;
+    padding-left: 2rem;
   }
 
   /* .gitPhraseOne {
@@ -156,13 +165,26 @@
     font-size: 0.6rem;
   } */
 
-  .gitPhraseFirst {
-    font-size: 2rem;
-    font-weight: 900;
+  .gitPhraseOne {
+    color: #fff;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
   }
 
   .gitPhraseSecond {
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.2rem 0 1rem 0;
+  }
+
+  .gitPhrase {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .textGITButton {
+    font-size: 0.7rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
   }
 }
