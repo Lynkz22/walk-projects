@@ -27,7 +27,7 @@ const HomeWelcome = () => {
           </div>
 
           <div className="divWelcomeButton">
-            <Link to="/Contact">
+            <Link to="/About">
               <button className="buttonHomeWelcome">
                 <p className="textWelcomeButton">About Us</p>
               </button>

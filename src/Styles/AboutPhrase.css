@@ -31,7 +31,7 @@
 }
 
 .textAboutPhrase {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #fff;
   line-height: 30px;
 }
@@ -56,14 +56,14 @@
   }
 
   .headingAboutPhrase {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 1rem;
   }
 
   .textAboutPhrase {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #fff;
     line-height: 25px;
   }

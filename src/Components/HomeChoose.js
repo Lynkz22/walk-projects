@@ -48,7 +48,7 @@ const HomeChoose = () => {
           </div>
 
           <div className="divChooseButton">
-            <Link to="/Contact">
+            <Link to="/About">
               <button className="buttonHomeChoose">
                 <p className="textChooseButton">About Us</p>
               </button>

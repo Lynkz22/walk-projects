@@ -6,11 +6,10 @@
 
 .textAboutIntroduction {
   width: 85%;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #000;
   text-align: start;
   margin: auto;
-  line-height: 7500px;
 }
 
 .divOurCompany {
@@ -66,7 +65,7 @@
 .textAboutIntroduction {
   color: #000;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 35px;
 }
 
@@ -108,23 +107,23 @@
   text-align: left;
   font-family: "Poppins", cursive;
   font-weight: 500;
-  font-size: 1.3em;
+  font-size: 1.2rem;
   margin-bottom: 1em;
   text-align: center;
   text-transform: uppercase;
 }
 
 .headingOurCompany {
-  background: linear-gradient(to right, #0000ff, #ff0000);
+  background: linear-gradient(to right, #180e7f, #ff0000);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .textOurCompany {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 35px;
 }
 
@@ -132,7 +131,7 @@
   .sectionMissionNew {
     display: block;
     margin-top: 1.5em;
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
 
   .divMissionHigh {
@@ -164,12 +163,12 @@
   .sectionAboutIntroduction {
     width: 100%;
     height: auto;
-    margin: 10rem auto;
+    margin: 5rem auto 7rem auto;
   }
 
   .textAboutIntroduction {
-    font-size: 0.8rem;
-    line-height: 30px;
+    font-size: 0.7rem;
+    line-height: 25px;
   }
 
   .divOurCompany {
@@ -177,7 +176,7 @@
   }
 
   .headingOurCompany {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   .sectionMissionNew {
@@ -201,16 +200,16 @@
   }
 
   .textOurCompany {
-    font-size: 0.8rem;
-    line-height: 30px;
+    font-size: 0.7rem;
+    line-height: 25px;
     text-align: start;
   }
 
   .headingOtherAboutHeading {
     text-align: center;
     font-family: "Poppins", cursive;
-    font-weight: 900;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 0.9rem;
   }
 }
 
