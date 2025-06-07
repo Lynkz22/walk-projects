@@ -16,7 +16,7 @@ const ProjectsLandingPage = () => {
         <div className="divAboutLandingPageText">
           <h1 className="headingAboutLanding">Our Projects</h1>
           <p className="textAboutLanding">
-            DELIVERING EEXCELLENCE, PROJECT BY PROJECT
+            DELIVERING EXCELLENCE, PROJECT BY PROJECT
           </p>
         </div>
       </section>
