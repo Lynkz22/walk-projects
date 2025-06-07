@@ -64,6 +64,7 @@
   height: 18rem;
   position: relative;
   opacity: 1;
+  padding: 1rem 0;
   /* transform: translateY(100px); */
   transition: all 1.5s ease-in-out;
   /* Dark Red to Light Red Gradient */
@@ -82,6 +83,10 @@
   transition: all 1s ease-in-out;
 }
 
+.serv {
+  font-size: 3rem;
+}
+
 .linkHomeServices {
   position: relative;
   width: 100%;
@@ -94,7 +99,7 @@
 }
 
 .linkHomeServices:hover .animatedText {
-  bottom: 80%; /* Moves to the top */
+  bottom: 75%; /* Moves to the top */
   animation-delay: 8s;
 }
 
@@ -214,6 +219,10 @@
     font-size: 0.9rem;
   }
 
+  .serv {
+  font-size:1.5rem;
+}
+
   .linkHomeServices:hover .animatedText {
     bottom: 70%;
     animation-delay: 8s;
@@ -247,4 +256,8 @@
     width: 100%;
     height: 13rem;
   }
+}
+
+.linkHomeServices {
+  padding: 1rem 0;
 }

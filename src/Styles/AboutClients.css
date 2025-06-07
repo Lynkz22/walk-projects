@@ -1,17 +1,167 @@
-/* Set up the container as a grid */
-.image-container {
-  display: grid;
-  /* Create as many columns as will fit with a minimum width of 200px for each */
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  gap: 10px; /* Adjust the gap between images as desired */
-  max-width: 1200px; /* Optional: constrain the maximum width */
-  margin: 0 auto; /* Centers the container on the page */
-  padding: 10px;
+.sectionAboutClients {
+  margin: 10rem auto;
 }
 
-/* Make images fill the available grid cell while keeping their aspect ratio */
-.image-container img {
+.textClients h2 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Poppins", cursive;
+  letter-spacing: 4px;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: #fe0000;
+  text-transform: uppercase;
+}
+
+.textClients p {
+  font-size: 0.9rem;
+  font-family: "Poppins", cursive;
+  line-height: 35px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 100px;
+  margin-top: 3rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+  background-color: #d1c7bd;
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.item {
+  width: 150px;
+  height: 100px;
+  /* background-color: #fff; */
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(200px * 8), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+.imageClients {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .textClients {
+    width: 80%;
+    margin: auto;
+  }
+
+  .textClients h2 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+  }
+
+  .textClients p {
+    font-size: 0.7rem;
+    line-height: 25px;
+  }
+
+  .item {
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    margin: auto;
+  }
+
+  .wrapper {
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 70px;
+    margin-top: 3rem;
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0)
+    );
+    background-color: #d1c7bd;
+  }
+
+  .item {
+    /* width: 150px;
+    height: 100px; */
+    /* background-color: #fff; */
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(10px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
 }

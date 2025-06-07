@@ -34,7 +34,7 @@ const HomeProjects = () => {
               </div>
               <div className="divOfText">
                 <h2>Stanbic Bank</h2>
-                <p>Lorem Ipsum</p>
+                <p>MEP</p>
               </div>
               <div className="topBcg"></div>
             </motion.div>
@@ -54,7 +54,7 @@ const HomeProjects = () => {
               </div>
               <div className="divOfText">
                 <h2>Garnet Project</h2>
-                <p>Lorem Ipsum</p>
+                <p>MEP</p>
               </div>
             </motion.div>
           </div>
@@ -75,7 +75,7 @@ const HomeProjects = () => {
               </div>
               <div className="divOfText">
                 <h2>Meridian Towers</h2>
-                <p>Lorem Ipsum</p>
+                <p>MEP</p>
               </div>
               <div className="topBcg"></div>
             </motion.div>
@@ -95,7 +95,7 @@ const HomeProjects = () => {
               </div>
               <div className="divOfText">
                 <h2>Trinity Towers</h2>
-                <p>Lorem Ipsum</p>
+                <p>MEP</p>
               </div>
             </motion.div>
           </div>

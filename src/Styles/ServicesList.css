@@ -33,7 +33,7 @@
 .headingServicesListText {
   text-align: start;
   margin: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 900;
   text-align: start;
   font-family: "Poppins", cursive;
@@ -47,7 +47,7 @@
 
 .msText {
   text-align: start;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   line-height: 35px;
 }
 
@@ -63,7 +63,7 @@
 .msSpan {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .fa-circle {
@@ -108,7 +108,7 @@
 
   .msText {
     font-size: 0.7rem;
-    line-height: 15px;
+    line-height: 25px;
   }
 
   .sectionLists {

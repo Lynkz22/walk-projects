@@ -1,7 +1,13 @@
 import React from "react";
 import "../Styles/ServicesList.css";
-import ProjectHomeImageOne from "../Components/Assets/LandingPage/LandingPage3.jpg";
 import { motion } from "framer-motion";
+import AirConditioning from "../Components/Assets/ServicesImages/AirConditioning.jpg";
+import Ventilation from "../Components/Assets/ServicesImages/Ventilation.jpg";
+import PipeAndPlumbing from "../Components/Assets/ServicesImages/PipeAndPlumbing.jpg";
+import FireProtection from "../Components/Assets/ServicesImages/FireProtection.jpg";
+import ElectricalServices from "../Components/Assets/ServicesImages/ElectricalServices.jpg";
+import ELVSystem from "../Components/Assets/ServicesImages/ELVSystem.jpeg";
+import FuelSystem from "../Components/Assets/ServicesImages/FuelSystem.webp";
 
 const ServicesList = () => {
   return (
@@ -18,7 +24,7 @@ const ServicesList = () => {
             <div className="divServicesListImage">
               <img
                 alt="HeroImg"
-                src={ProjectHomeImageOne}
+                src={AirConditioning}
                 className="servicesListImage"
               />
             </div>
@@ -72,7 +78,7 @@ const ServicesList = () => {
             <div className="divServicesListImage">
               <img
                 alt="HeroImg"
-                src={ProjectHomeImageOne}
+                src={Ventilation}
                 className="servicesListImage"
               />
             </div>
@@ -119,7 +125,7 @@ const ServicesList = () => {
             <div className="divServicesListImage">
               <img
                 alt="HeroImg"
-                src={ProjectHomeImageOne}
+                src={PipeAndPlumbing}
                 className="servicesListImage"
               />
             </div>
@@ -189,7 +195,7 @@ const ServicesList = () => {
             <div className="divServicesListImage">
               <img
                 alt="HeroImg"
-                src={ProjectHomeImageOne}
+                src={FireProtection}
                 className="servicesListImage"
               />
             </div>
@@ -263,12 +269,12 @@ const ServicesList = () => {
             <div className="divServicesListImage">
               <img
                 alt="HeroImg"
-                src={ProjectHomeImageOne}
+                src={ElectricalServices}
                 className="servicesListImage"
               />
             </div>
             <div className="divServicesListText">
-              <h2 className="headingServicesListText">Electrical Services </h2>
+              <h2 className="headingServicesListText">Electrical Services</h2>
               <p>
                 <p className="msText">
                   <ul className="msTextList">
@@ -354,7 +360,7 @@ const ServicesList = () => {
             <div className="divServicesListImage">
               <img
                 alt="HeroImg"
-                src={ProjectHomeImageOne}
+                src={ELVSystem}
                 className="servicesListImage"
               />
             </div>
@@ -440,7 +446,7 @@ const ServicesList = () => {
             <div className="divServicesListImage">
               <img
                 alt="HeroImg"
-                src={ProjectHomeImageOne}
+                src={FuelSystem}
                 className="servicesListImage"
               />
             </div>

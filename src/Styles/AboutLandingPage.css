@@ -50,7 +50,7 @@
 
 .textAboutLanding {
   font-size: 1rem;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   font-family: "Poppins", cursive;
   text-align: center;
   color: #fff;
@@ -90,7 +90,7 @@
 
   .textAboutLanding {
     font-size: 0.7rem;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
   }
 
   .divAboutLandingPageText {

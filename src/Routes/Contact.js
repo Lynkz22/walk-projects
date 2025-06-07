@@ -11,7 +11,7 @@ const Contact = () => {
       <Navbar />
 
       {/* <ContactIntro /> */}
-      <ContactMain />
+      {/* <ContactMain /> */}
       {/* <Footer /> */}
     </>
   );

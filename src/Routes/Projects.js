@@ -3,6 +3,8 @@ import Navbar from "../Components/Navbar";
 import ProjectsLandingPage from "../Components/ProjectsLandingPage";
 import ProjectIntroduction from "../Components/ProjectIntroduction";
 import ProjectsPictures from "../Components/ProjectsPictures";
+import HomeGetInTouch from "../Components/HomeGetInTouch";
+import HomeFooter from "../Components/HomeFooter";
 
 const Projects = () => {
   return (
@@ -11,6 +13,8 @@ const Projects = () => {
       <ProjectsLandingPage />
       <ProjectIntroduction />
       <ProjectsPictures />
+      <HomeFooter />
+      {/* <HomeGetInTouch /> */}
     </>
   );
 };

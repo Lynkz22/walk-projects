@@ -1,14 +1,14 @@
 .sectionHomeFooter {
   width: 100vw;
   height: 25vh;
-  margin: 0 auto;
+  margin: 20rem auto 0 auto;
 }
 
 .sectionHomeFooterColor {
   width: 100vw;
   height: 25vh;
   margin: 0 auto;
-  background-color: #ff0000;
+  background-color: #000;
   filter: brightness(0.8);
   position: absolute;
 }

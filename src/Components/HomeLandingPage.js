@@ -66,11 +66,12 @@ export class HomeLandingPage extends Component {
                     viewport={{ once: true }}
                     exit={{ opacity: 1, y: "-50px" }}
                   >
+                    <span class="material-symbols-outlined line">line_end</span>
                     <p>
                       "Engineering Solutions Tailored To You" <br />
                       From essential infrastructure to complex building systems,
-                      our design are meticulouslycrafted to integrate seamlessly
-                      and optimize performance.
+                      our design are meticulously crafted to integrate
+                      seamlessly and optimize performance.
                       {/* Discover how intelligent MEP
                       Engineering an power your projects to success. */}
                     </p>
@@ -95,7 +96,8 @@ export class HomeLandingPage extends Component {
                   exit={{ opacity: 1, y: "-50px" }}
                 >
                   <h2 className="headingMotionDiv">
-                    Engineered <br /> To Endure
+                    Engineered To
+                    <br /> Endure
                   </h2>
                   <motion.div
                     className="motionDivText"
@@ -105,6 +107,8 @@ export class HomeLandingPage extends Component {
                     viewport={{ once: true }}
                     exit={{ opacity: 1, y: "-50px" }}
                   >
+                    <span class="material-symbols-outlined line">line_end</span>
+
                     <p>
                       "Reliable Systems for Future Generation" <br />
                       Our team brings unparalled expertise, meticulous planning,
@@ -143,6 +147,8 @@ export class HomeLandingPage extends Component {
                     viewport={{ once: true }}
                     exit={{ opacity: 1, y: "-50px" }}
                   >
+                    <span class="material-symbols-outlined line">line_end</span>
+
                     <p>
                       "Your Vision, Powered from Concept to Completion" <br />
                       We manage the entire MEP project lifecycle, from initial
@@ -182,6 +188,8 @@ export class HomeLandingPage extends Component {
                     viewport={{ once: true }}
                     exit={{ opacity: 1, y: "-50px" }}
                   >
+                    <span class="material-symbols-outlined line">line_end</span>
+
                     <p>
                       "Intelligent Systems For a Brighter Future" <br />
                       {/* We engineer cutting-edge MEP solutions that not only meet

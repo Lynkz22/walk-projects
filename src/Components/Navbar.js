@@ -6,32 +6,46 @@ import Logo from "../Components/Assets/Logo/Logo.png";
 
 class Navbar extends Component {
   state = { clicked: false };
+  // handleClick = () => {
+  //   this.setState({ clicked: !this.state.clicked });
+
+  //   if (!this.state.clicked) {
+  //     document.body.classList.add("no-scroll");
+  //   } else {
+  //     document.body.classList.remove("no-scroll");
+  //   }
+  // };
+
   handleClick = () => {
-    // this.setState({ clicked: !this.state.clicked });
-    this.setState({ clicked: !this.state.clicked });
+    this.setState((prevState) => ({ clicked: !prevState.clicked }));
 
     if (!this.state.clicked) {
-      document.body.classList.add("no-scroll"); // Disable scrolling
+      document.body.classList.add("no-scroll");
     } else {
-      document.body.classList.remove("no-scroll"); // Enable scrolling
+      document.body.classList.remove("no-scroll");
     }
   };
+  componentDidMount() {
+    window.addEventListener("scroll", this.changeNavbarBackground);
+    document.body.classList.remove("no-scroll"); // Remove scroll restriction when page loads
 
+    this.setState({ clicked: false });
+  }
   // componentDidMount() {
   //   window.addEventListener("scroll", this.changeNavbarBackground);
   // }
 
-  // componentWillUnmount() {
-  //   window.removeEventListener("scroll", this.changeNavbarBackground);
-  // }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.changeNavbarBackground);
+  }
 
-  // changeNavbarBackground = () => {
-  //   if (window.scrollY >= 50) {
-  //     document.querySelector(".navbarItems").classList.add("navbarScrolled");
-  //   } else {
-  //     document.querySelector(".navbarItems").classList.remove("navbarScrolled");
-  //   }
-  // };
+  changeNavbarBackground = () => {
+    if (window.scrollY >= 50) {
+      document.querySelector(".navbarItems").classList.add("navbarScrolled");
+    } else {
+      document.querySelector(".navbarItems").classList.remove("navbarScrolled");
+    }
+  };
 
   render() {
     return (

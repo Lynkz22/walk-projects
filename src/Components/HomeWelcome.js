@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/HomeWelcome.css";
-import ProjectHomeImageOne from "../Components/Assets/LandingPage/LandingPage3.jpg";
+import HomeWelcomeImage from "../Components/Assets/MeridianTowers/MT1.webp";
 
 const HomeWelcome = () => {
   return (
@@ -38,7 +38,7 @@ const HomeWelcome = () => {
         <div className="divHomeWelcomeImage">
           <img
             alt="HeroImg"
-            src={ProjectHomeImageOne}
+            src={HomeWelcomeImage}
             className="homeWelcomeImage"
           />
         </div>

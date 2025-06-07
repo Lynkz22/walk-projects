@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/AboutLandingPage.css";
-import ProjectHomeImageOne from "../Components/Assets/LandingPage/LandingPage3.jpg";
+import ServicesLandingImage from "../Components/Assets/GarnetProject/GP2.webp";
 
 const ServicesLandingPage = () => {
   return (
@@ -9,13 +9,15 @@ const ServicesLandingPage = () => {
         <div className="divAboutLandingPageImage">
           <img
             alt="HeroImg"
-            src={ProjectHomeImageOne}
+            src={ServicesLandingImage}
             className="homeChooseImage"
           />
         </div>
         <div className="divAboutLandingPageText">
           <h1 className="headingAboutLanding">Our Services</h1>
-          {/* <p className="textAboutLanding"> WELCOME TO WALK PROJECTS</p> */}
+          <p className="textAboutLanding">
+            EXPERT MEP SOLUTIONS, RELIABLY DELIVERED
+          </p>
         </div>
       </section>
     </>
