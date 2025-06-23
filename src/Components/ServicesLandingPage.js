@@ -14,7 +14,7 @@ const ServicesLandingPage = () => {
           />
         </div>
         <div className="divAboutLandingPageText">
-          <h1 className="headingAboutLanding">Our Services</h1>
+          <h1 className="headingAboutLanding">OUR SERVICES</h1>
           <p className="textAboutLanding">
             EXPERT MEP SOLUTIONS, RELIABLY DELIVERED
           </p>

@@ -2,6 +2,7 @@ import React from "react";
 import AboutTeamKoya from "./AboutTeamKoya";
 import AboutTeamWale from "./AboutTeamWale";
 import AboutTeamTaiwo from "./AboutTeamTaiwo";
+import AboutTeamAdmin from "./AboutTeamAdmin";
 
 const AboutTeam = () => {
   return (
@@ -13,6 +14,7 @@ const AboutTeam = () => {
         <AboutTeamKoya />
         <AboutTeamWale />
         <AboutTeamTaiwo />
+        <AboutTeamAdmin />
       </section>
     </>
   );

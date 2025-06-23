@@ -7,6 +7,26 @@
   margin: auto;
 }
 
+.headingSectionProjectPictures {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Poppins", cursive;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: #fe0000;
+  margin-bottom: 3rem;
+}
+
+.divSpacing {
+  margin-top: 10rem;
+}
+
 .divProjectImages {
   width: 250px; /* Adjust as needed */
   height: 400px;
@@ -31,11 +51,11 @@
 }
 
 .divProjectImages:hover {
-  transform: scale(0.95);
+  transform: scale(0.98);
 }
 
 .projectImages:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .textProjectName {
@@ -48,6 +68,7 @@
   text-align: center;
   padding: 0.8rem 2rem;
   color: #000;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 800px) {
@@ -63,6 +84,16 @@
   .textProjectName {
     font-size: 0.7rem;
     padding: 0.6rem 1.5rem;
+  }
+
+  .headingSectionProjectPictures {
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+  }
+
+  .divSpacing {
+    margin-top: 5rem;
   }
 }
 

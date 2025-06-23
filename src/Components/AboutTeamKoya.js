@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/AboutTeam.css";
-import koya from "../Components/Assets/TeamMembers/MrKoya.jpg";
+import koya from "../Components/Assets/TeamMembers/Koya.jpg";
 
 const AboutTeamKoya = () => {
   return (

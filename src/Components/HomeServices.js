@@ -100,7 +100,7 @@ const HomeServices = () => {
                 <div className="animatedText">
                   <span class="material-symbols-outlined serv">
                     engineering
-                  </span>{" "}
+                  </span>
                   <br />
                   Project Advisory
                 </div>

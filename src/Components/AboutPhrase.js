@@ -6,7 +6,7 @@ const AboutPhrase = () => {
     <>
       <section className="sectionAboutPhrase">
         <div className="divSectionPhrase">
-          <h2 className="headingAboutPhrase">Future Outlook</h2>
+          <h2 className="headingAboutPhrase">FUTURE OUTLOOK</h2>
           <p className="textAboutPhrase">
             As we move forward, Walk Projects remains committed to advancing
             innovation in MEP (Mechanical, Electrical, and Plumbing)

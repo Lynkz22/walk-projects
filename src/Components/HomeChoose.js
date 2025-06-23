@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/HomeChoose.css";
-import ProjectHomeImageOne from "../Components/Assets/LandingPage/LandingPage3.jpg";
+import ProjectHomeImageOne from "../Components/Assets/GarnetProject/GP2.webp";
 
 const HomeChoose = () => {
   return (

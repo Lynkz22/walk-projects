@@ -49,15 +49,6 @@ const AboutIntroduction = () => {
         <div className="divOurCompany">
           <h2 className="headingOurCompany">Our Staff</h2>
           <p className="textOurCompany">
-            Consist of highly dedicated group of individuals, that bring 100
-            percent determination to work, and have the strength to see things
-            through accurately.
-          </p>
-        </div>
-
-        <div className="divOurCompany">
-          <h2 className="headingOurCompany">Our Staff</h2>
-          <p className="textOurCompany">
             We are a group of highly trained personel with professional
             qualifications from several engineering bodies, we are solely driven
             by our core values, which brings out the best in our job delivery.
@@ -85,7 +76,7 @@ const AboutIntroduction = () => {
             </p>
           </div>
 
-          <div class="divMissionMedium">
+          <div class="divMissionHigh">
             <h2 class="headingOtherAboutHeading">Customer Satisfaction</h2>
             <p class="textOurCompany">
               We are a group of highly trained personnel with professional
@@ -95,7 +86,7 @@ const AboutIntroduction = () => {
             </p>
           </div>
 
-          <div class="divMissionSmall">
+          <div class="divMissionHigh">
             <h2 class="headingOtherAboutHeading">Integrity</h2>
             <p class="textOurCompany">
               We behave in a manner that demonstrate trust, honesty, courage,

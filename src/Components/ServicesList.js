@@ -201,7 +201,7 @@ const ServicesList = () => {
             </div>
             <div className="divServicesListText">
               <h2 className="headingServicesListText">
-                Fire Protection and Fuel System
+                Fire Detection and Protection
               </h2>
               <p>
                 <p className="msText">
@@ -242,16 +242,6 @@ const ServicesList = () => {
                     <li>
                       <span className="msSpan">
                         <i class="fa-solid fa-circle"></i>Tanks & Day Tanks
-                      </span>
-                    </li>
-                    <li>
-                      <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i>Fuel Piping
-                      </span>
-                    </li>
-                    <li>
-                      <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i>Fuel Dispensers
                       </span>
                     </li>
                   </ul>
@@ -365,7 +355,9 @@ const ServicesList = () => {
               />
             </div>
             <div className="divServicesListText">
-              <h2 className="headingServicesListText">ELV Services </h2>
+              <h2 className="headingServicesListText">
+                Extra Low Voltage Services
+              </h2>
               <p>
                 <p className="msText">
                   <ul className="msTextList">
@@ -383,7 +375,8 @@ const ServicesList = () => {
                     </li>
                     <li>
                       <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i>Fire Alarm Systems
+                        <i class="fa-solid fa-circle"></i>Fire Detection and
+                        Alarm Systems
                       </span>
                     </li>
                     <li>
@@ -431,6 +424,12 @@ const ServicesList = () => {
                         Systems
                       </span>
                     </li>
+                    <li>
+                      <span className="msSpan">
+                        <i class="fa-solid fa-circle"></i>Home Automations
+                        Systems
+                      </span>
+                    </li>
                   </ul>
                 </p>
               </p>
@@ -451,7 +450,9 @@ const ServicesList = () => {
               />
             </div>
             <div className="divServicesListText">
-              <h2 className="headingServicesListText">Fuel System</h2>
+              <h2 className="headingServicesListText">
+                Fuel Storage and Piping System
+              </h2>
               <p>
                 <p className="msText">
                   <ul className="msTextList">

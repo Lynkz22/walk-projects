@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/AboutLandingPage.css";
-import ProjectHomeImageOne from "../Components/Assets/LandingPage/LandingPage3.jpg";
+import ProjectHomeImageOne from "../Components/Assets/MeridianTowers/MT1.webp";
 
 const AboutLandingPage = () => {
   return (
@@ -14,7 +14,7 @@ const AboutLandingPage = () => {
           />
         </div>
         <div className="divAboutLandingPageText">
-          <h1 className="headingAboutLanding">About Us</h1>
+          <h1 className="headingAboutLanding">ABOUT US</h1>
           <p className="textAboutLanding"> WELCOME TO WALK PROJECTS</p>
         </div>
       </section>

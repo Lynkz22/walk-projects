@@ -37,6 +37,7 @@
 .teamMembersName h1 {
   font-size: 0.9rem;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .teamMembersName p {

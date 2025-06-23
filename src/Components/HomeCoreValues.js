@@ -35,7 +35,7 @@ const HomeCoreValues = () => {
             </p>
           </motion.div>
           <motion.div
-            className="divMission-2"
+            className="divMission"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 3 }}

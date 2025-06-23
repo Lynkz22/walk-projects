@@ -2,11 +2,10 @@ import React from "react";
 import "../Styles/HomeProjects.css";
 import { motion } from "framer-motion";
 import StanbicBank from "../Components/Assets/SterlingBank/SB1.webp";
-import GarnetProject from "../Components/Assets/GarnetProject/GP1.webp";
+import Oduduwa from "../Components/Assets/OduduwaHomes/OH1.jpg";
 import MeridianTowers from "../Components/Assets/MeridianTowers/MT1.webp";
 import TrinityTowers from "../Components/Assets/TrinityTowers/TT.jpeg";
-
-import ProjectHomeImageOne from "../Components/Assets/LandingPage/LandingPage3.jpg";
+import { Link } from "react-router-dom";
 
 const HomeProjects = () => {
   return (
@@ -25,18 +24,20 @@ const HomeProjects = () => {
               transition={{ duration: 2 }}
               viewport={{ once: true }}
             >
-              <div className="divOfImage">
-                <img
-                  alt="HeroImg"
-                  src={StanbicBank}
-                  className="homeProjectImage"
-                />
-              </div>
-              <div className="divOfText">
-                <h2>Stanbic Bank</h2>
-                <p>MEP</p>
-              </div>
-              <div className="topBcg"></div>
+              <Link to="/Projects">
+                <div className="divOfImage">
+                  <img
+                    alt="HeroImg"
+                    src={StanbicBank}
+                    className="homeProjectImage"
+                  />
+                </div>
+                <div className="divOfText">
+                  <h2>Sterling Bank</h2>
+                  <p>DESIGN AND BUILD</p>
+                </div>
+                <div className="topBcg"></div>
+              </Link>
             </motion.div>
             <motion.div
               className="divServicesAboutText-1"
@@ -45,17 +46,19 @@ const HomeProjects = () => {
               transition={{ duration: 2 }}
               viewport={{ once: true }}
             >
-              <div className="divOfImage">
-                <img
-                  alt="HeroImg"
-                  src={GarnetProject}
-                  className="homeProjectImage"
-                />
-              </div>
-              <div className="divOfText">
-                <h2>Garnet Project</h2>
-                <p>MEP</p>
-              </div>
+              <Link to="/Projects">
+                <div className="divOfImage">
+                  <img
+                    alt="HeroImg"
+                    src={Oduduwa}
+                    className="homeProjectImage"
+                  />
+                </div>
+                <div className="divOfText">
+                  <h2>ODUDUWA</h2>
+                  <p>DESIGN AND BUILD</p>
+                </div>
+              </Link>
             </motion.div>
           </div>
           <div className="divServicesAboutFlex">
@@ -66,18 +69,20 @@ const HomeProjects = () => {
               transition={{ duration: 2 }}
               viewport={{ once: true }}
             >
-              <div className="divOfImage">
-                <img
-                  alt="HeroImg"
-                  src={MeridianTowers}
-                  className="homeProjectImage"
-                />
-              </div>
-              <div className="divOfText">
-                <h2>Meridian Towers</h2>
-                <p>MEP</p>
-              </div>
-              <div className="topBcg"></div>
+              <Link to="/Projects">
+                <div className="divOfImage">
+                  <img
+                    alt="HeroImg"
+                    src={MeridianTowers}
+                    className="homeProjectImage"
+                  />
+                </div>
+                <div className="divOfText">
+                  <h2>Meridian Towers</h2>
+                  <p>CONSULTING</p>
+                </div>
+                <div className="topBcg"></div>
+              </Link>
             </motion.div>
             <motion.div
               className="divServicesAboutText-1"
@@ -86,17 +91,19 @@ const HomeProjects = () => {
               transition={{ duration: 2 }}
               viewport={{ once: true }}
             >
-              <div className="divOfImage">
-                <img
-                  alt="HeroImg"
-                  src={TrinityTowers}
-                  className="homeProjectImage"
-                />
-              </div>
-              <div className="divOfText">
-                <h2>Trinity Towers</h2>
-                <p>MEP</p>
-              </div>
+              <Link to="/Projects">
+                <div className="divOfImage">
+                  <img
+                    alt="HeroImg"
+                    src={TrinityTowers}
+                    className="homeProjectImage"
+                  />
+                </div>
+                <div className="divOfText">
+                  <h2>Trinity Towers</h2>
+                  <p>CONSULTING</p>
+                </div>
+              </Link>
             </motion.div>
           </div>
         </div>

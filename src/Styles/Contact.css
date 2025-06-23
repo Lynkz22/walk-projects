@@ -1,6 +1,6 @@
 .sectionContactForm {
   width: 90%;
-  margin: 7rem auto 7rem auto;
+  margin: 8rem auto 7rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
@@ -8,16 +8,24 @@
 
 .divContactForm {
   width: 80%;
-  background-color: #180e7f;
+  background-color: #010197;
   padding: 2em;
   min-height: 65vh;
   position: relative;
 }
 
 .divContactFormHeading {
-  font-weight: 500;
-  font-size: 1.2em;
+  font-weight: 900;
+  font-size: 2rem;
   color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins", cursive;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #0000ff, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
 }
 
 .divContactForm .inputBox {
@@ -80,31 +88,42 @@
 }
 
 .sendit {
-  background: #ff2400;
+  background: #fff;
   color: #ffffff;
   border: none;
   cursor: pointer;
   padding: 10px;
   text-align: start;
-  width: 100%;
+  width: fit-content;
   text-decoration: none;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   margin: 3rem auto 0 auto;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
-.sendit:hover {
+/* .sendit:hover {
   border: 1px solid #fff;
   background: ff2400;
   transition: 1s;
-}
+} */
 
 .senditnow {
   text-decoration: none;
   background-color: none;
-  font-size: 1rem;
-  text-align: center;
+  text-align: start;
+  font-size: 0.8rem;
+  color: #000;
+  letter-spacing: 2px;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  border-radius: 8px;
+}
+
+.senditnow:hover {
+  transition: transform 2s ease-in-out;
+  transform: scale(1.03);
+  transition: 2s;
+  color: #000;
 }
 
 .sendit-1 {

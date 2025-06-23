@@ -46,7 +46,7 @@
 
 .divMission {
   width: 30%;
-  height: 90%;
+  min-height: 22rem;
   background-color: #fff;
   padding: 3em 1.5em;
   margin: auto;
@@ -57,11 +57,6 @@
   transition: all 1.5s ease-in-out;
   align-self: center;
 }
-
-/* .show1 {
-  opacity: 1;
-  transform: translateX(0);
-} */
 
 .divMission:hover {
   transition: transform 1s ease-in-out;

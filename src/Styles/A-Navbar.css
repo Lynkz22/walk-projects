@@ -27,14 +27,27 @@
   margin: auto;
   justify-self: left;
   color: #180e7f;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #fff;
+  text-transform: uppercase;
+}
+
+.navBarNameText {
+  margin: auto;
+  justify-self: left;
+  color: #180e7f;
+  font-size: 3rem;
+  color: #fff;
+  font-style: italic;
+  text-align: start;
 }
 
 .navBarName span {
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 0.7rem;
   color: #fff;
+  font-style: italic;
+  text-align: start;
 }
 
 .navbarLogoImage {
@@ -93,16 +106,25 @@
   .navLinks {
     color: #000;
   }
-
   .navBarName {
     color: #000;
   }
 
   .navBarName span {
     color: #000;
-    font-weight: 500;
   }
 }
+
+/* .navBarName {
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  .navBarName span {
+    color: #000;
+    font-weight: 500;
+  }
+} */
 
 @media screen and (min-width: 1500px) {
   .navLinks {
@@ -187,13 +209,13 @@
     display: block;
   }
 
-  .navBarName {
+  /* .navBarName {
     font-size: 1.2rem;
   }
 
   .navBarName span {
     font-size: 1.4rem;
-  }
+  } */
 
   body.no-scroll {
     overflow: hidden;
@@ -205,7 +227,7 @@
     left: 0;
   } */
 
-    .navBarName {
+  .navBarName {
     font-size: 0.6rem;
   }
 
@@ -250,4 +272,17 @@
 
 .navLinks {
   font-size: 0.7rem;
+}
+
+.navBarName {
+  font-size: 0.9rem;
+  text-align: start;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.navBarName span {
+  font-size: 0.7rem;
+  font-style: italic;
+  text-transform: capitalize;
 }

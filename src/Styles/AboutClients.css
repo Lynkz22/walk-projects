@@ -35,7 +35,7 @@
 
 .wrapper {
   width: 90%;
-  max-width: 1536px;
+  max-width: none;
   margin-inline: auto;
   position: relative;
   height: 100px;
@@ -63,7 +63,9 @@
   /* background-color: #fff; */
   border-radius: 6px;
   position: absolute;
-  left: max(calc(200px * 8), 100%);
+  left: max(calc(200px * 11), 100%);
+
+  /* left: max(calc(200px * 11), 100%); */
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -71,35 +73,47 @@
 }
 
 .item1 {
-  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  animation-delay: calc(30s / 11 * (11 - 1) * -1);
 }
 
 .item2 {
-  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  animation-delay: calc(30s / 11 * (11 - 2) * -1);
 }
 
 .item3 {
-  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  animation-delay: calc(30s / 11 * (11 - 3) * -1);
 }
 
 .item4 {
-  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  animation-delay: calc(30s / 11 * (11 - 4) * -1);
 }
 
 .item5 {
-  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  animation-delay: calc(30s / 11 * (11 - 5) * -1);
 }
 
 .item6 {
-  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  animation-delay: calc(30s / 11 * (11 - 6) * -1);
 }
 
 .item7 {
-  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  animation-delay: calc(30s / 11 * (11 - 7) * -1);
 }
 
 .item8 {
-  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  animation-delay: calc(30s / 11 * (11 - 8) * -1);
+}
+
+.item9 {
+  animation-delay: calc(30s / 11 * (11 - 9) * -1);
+}
+
+.item10 {
+  animation-delay: calc(30s / 11 * (11 - 10) * -1);
+}
+
+.item11 {
+  animation-delay: calc(30s / 11 * (11 - 11) * -1);
 }
 
 .imageClients {
@@ -163,5 +177,56 @@
     animation-duration: 30s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+  }
+}
+
+.container {
+  margin-top: 3rem;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  max-width: 200vw;
+  align-items: center;
+  justify-content: flex-start;
+  height: 7rem;
+  background-color: #d1c7bd;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  gap: 30px;
+  animation: scroll 30s linear infinite;
+  width: fit-content;
+}
+
+.scrolling-content {
+  display: flex;
+  gap: 70px;
+}
+
+.scrolling-wrapper img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .scrolling-wrapper img {
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    margin: auto;
+    object-fit: contain;
+    border-radius: 10px;
   }
 }

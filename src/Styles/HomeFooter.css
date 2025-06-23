@@ -33,11 +33,12 @@
   text-align: left;
   justify-content: start;
   align-content: start;
+  text-transform: uppercase;
 }
 
 .FooterText span {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #fff;
   justify-self: start;
   text-align: left;
