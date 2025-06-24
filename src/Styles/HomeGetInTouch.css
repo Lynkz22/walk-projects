@@ -89,6 +89,7 @@
   font-weight: 900;
   margin: auto;
   padding: 0.5rem 2rem 0.5rem 0rem;
+  background-color: transparent;
   /* background: linear-gradient(to right, #0000ff, #ff0000); */
 }
 
