@@ -144,29 +144,38 @@ const ServicesList = () => {
                     </li>
                     <li>
                       <span className="msSpan">
+                        <i class="fa-solid fa-circle"></i>
+                        Water Distribution System
+                      </span>
+                    </li>
+                    <li>
+                      <span className="msSpan">
                         <i class="fa-solid fa-circle"></i> Sanitary Wares,
                         Kitchen Equipment and Accessories
                       </span>
                     </li>
                     <li>
                       <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i>Soil and waste system
+                        <i class="fa-solid fa-circle"></i>Soil and waste water
+                        drainage system
                       </span>
                     </li>
                     <li>
                       <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i>Rainwater system
+                        <i class="fa-solid fa-circle"></i>Rainwater drainage and
+                        harvesting system
                       </span>
                     </li>
                     <li>
                       <span className="msSpan">
                         <i class="fa-solid fa-circle"></i>
-                        Borehole and water treatment
+                        Borehole and water treatment plant
                       </span>
                     </li>
                     <li>
                       <span className="msSpan">
                         <i class="fa-solid fa-circle"></i> Sewage treatment
+                        plant
                       </span>
                     </li>
                     <li>
@@ -233,17 +242,6 @@ const ServicesList = () => {
                         Fire Hydrant
                       </span>
                     </li>
-                    <li>
-                      <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i>Underground Bulk
-                        Storage
-                      </span>
-                    </li>
-                    <li>
-                      <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i>Tanks & Day Tanks
-                      </span>
-                    </li>
                   </ul>
                 </p>
               </p>
@@ -271,14 +269,11 @@ const ServicesList = () => {
                     <li>
                       <span className="msSpan">
                         <i class="fa-solid fa-circle"></i>
-                        415V Generator, Generator Synchronization and
+                        415V Generator, Generator Synchronization and AMF
+                        Systems
                       </span>
                     </li>
-                    <li>
-                      <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i> AMF Systems
-                      </span>
-                    </li>
+
                     <li>
                       <span className="msSpan">
                         <i class="fa-solid fa-circle"></i>Distribution Network –

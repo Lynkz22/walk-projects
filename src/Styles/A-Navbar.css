@@ -30,6 +30,7 @@
   font-size: 1.1rem;
   color: #fff;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 .navBarNameText {
@@ -285,7 +286,7 @@
   font-size: 0.9rem;
   text-align: start;
   padding: 0.5rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .navBarName span {

@@ -13,6 +13,20 @@ import SterlingBankProject8 from "../Components/Assets/SterlingBank/STB4.jpg";
 import SterlingBankProject9 from "../Components/Assets/SterlingBank/STB5.jpg";
 import SterlingBankProject10 from "../Components/Assets/SterlingBank/STB6.jpg";
 import SterlingBankProject11 from "../Components/Assets/SterlingBank/STB7.jpg";
+import SterlingBankProject12 from "../Components/Assets/SterlingBank/STB9.jpg";
+import SterlingBankProject13 from "../Components/Assets/SterlingBank/STB10.jpg";
+import SterlingBankProject14 from "../Components/Assets/SterlingBank/STB11.jpg";
+import SterlingBankProject15 from "../Components/Assets/SterlingBank/STB12.jpg";
+import SterlingBankProject16 from "../Components/Assets/SterlingBank/STB13.jpg";
+import SterlingBankProject17 from "../Components/Assets/SterlingBank/STB14.jpg";
+import SterlingBankProject18 from "../Components/Assets/SterlingBank/STB15.jpg";
+import SterlingBankProject19 from "../Components/Assets/SterlingBank/STB16.jpg";
+import SterlingBankProject20 from "../Components/Assets/SterlingBank/STB17.jpg";
+import SterlingBankProject21 from "../Components/Assets/SterlingBank/STB18.jpg";
+import SterlingBankProject22 from "../Components/Assets/SterlingBank/STB19.jpg";
+import SterlingBankProject23 from "../Components/Assets/SterlingBank/STB20.jpg";
+import SterlingBankProject24 from "../Components/Assets/SterlingBank/STB21.jpg";
+import SterlingBankProject25 from "../Components/Assets/SterlingBank/STB22.jpg";
 
 const ProjectsPicSterling = () => {
   return (
@@ -48,9 +62,10 @@ const ProjectsPicSterling = () => {
             for the renovation works at the head office of sterling bank. The
             architectural design was carefully studied and state of the art and
             modern applications in the MEP industry was utilized for the design
-            of the building. The plumbing services recommended for the building
-            utlizes the top range obatainable in the industry, Electrical system
-            put into consideration energy saving options for lighting and power
+            of the building. <br />
+            The plumbing services recommended for the building utlizes the top
+            range obatainable in the industry, Electrical system put into
+            consideration energy saving options for lighting and power
             generation, and the Air conditioning was carefully thought out and
             design to meet industry energy efficiency standards.
           </p>
@@ -131,6 +146,104 @@ const ProjectsPicSterling = () => {
             <img
               alt="HeroImg"
               src={SterlingBankProject11}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject12}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject13}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject14}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject15}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject16}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject17}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject18}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject19}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject20}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject21}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject22}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject23}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject24}
+              className="projPicImageOf"
+            />
+          </div>
+          <div className="divProjectImagesOf">
+            <img
+              alt="HeroImg"
+              src={SterlingBankProject25}
               className="projPicImageOf"
             />
           </div>

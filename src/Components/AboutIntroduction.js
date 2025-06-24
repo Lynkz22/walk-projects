@@ -76,7 +76,7 @@ const AboutIntroduction = () => {
             </p>
           </div>
 
-          <div class="divMissionHigh">
+          <div class="divMissionHighLow">
             <h2 class="headingOtherAboutHeading">Customer Satisfaction</h2>
             <p class="textOurCompany">
               We are a group of highly trained personnel with professional

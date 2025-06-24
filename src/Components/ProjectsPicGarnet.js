@@ -41,10 +41,10 @@ const ProjectsPicGarnet = () => {
           </p>
           <p className="aboutProject">
             {/* We were engaged to provide MEP consultancy & Installation services
-            for a 12 Units of 4-Bedroom Semi-Detached duplex on 3-Floors, The
-            architectural design was carefully studied and state of the art and
-            modern applications in the MEP industry was utilized for the design
-            of the building <br />
+            for 2 blocks of 4 units semi-detached duplexes and 2 pent house
+            apartments, the architectural design was carefully studied and state
+            of the art and modern applications in the MEP industry was utilized
+            for the design of the building <br />
             The plumbing services recommended for the building utlizes the top
             range obatainable in the industry, Electrical system put into
             consideration energy saving options for lighting and power

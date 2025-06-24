@@ -19,6 +19,8 @@ import Seerbit from "../Components/Assets/Seerbit/SB1.jpg";
 import PointOmole from "../Components/Assets/4PointOmole/4PO2.webp";
 import PointOlowoora from "../Components/Assets/4PointOlowoora/4POL1.webp";
 import PointKosofe from "../Components/Assets/4PointKosofe/4PK1.webp";
+import Osborn from "../Components/Assets/G4Osborn/Go6.webp";
+import Vgc from "../Components/Assets/VGC/Vgc1.webp";
 
 const ProjectsPictures = () => {
   return (
@@ -54,7 +56,7 @@ const ProjectsPictures = () => {
 
         <Link to="/ProjectsPageG4Osborn">
           <div className="divProjectImages">
-            <img alt="HeroImg" src={OkinApartments} className="projectImages" />
+            <img alt="HeroImg" src={Osborn} className="projectImages" />
             <p className="textProjectName">G4 Osborn</p>
           </div>
         </Link>
@@ -91,6 +93,13 @@ const ProjectsPictures = () => {
           <div className="divProjectImages">
             <img alt="HeroImg" src={PointKosofe} className="projectImages" />
             <p className="textProjectName">4 Point Kosofe</p>
+          </div>
+        </Link>
+
+        <Link to="/ProjectsPageVgc">
+          <div className="divProjectImages">
+            <img alt="HeroImg" src={Vgc} className="projectImages" />
+            <p className="textProjectName">VGC</p>
           </div>
         </Link>
       </section>

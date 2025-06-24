@@ -120,9 +120,8 @@ class Navbar extends Component {
           />
           <p className="navBarName">
             Walk Projects <br />
-            <span>Integrated Services Co</span>
+            Integrated Services Co.
           </p>
-          {/* <p className="navBarNameText"></p> */}
         </div>
 
         <div className="menuIcons" onClick={this.handleClick}>

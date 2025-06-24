@@ -25,6 +25,7 @@ import ProjectsPageK21Banana from "./Routes/ProjectsPageK21Banana";
 import ProjectsPage4PointOmole from "./Routes/ProjectsPage4PointOmole";
 import ProjectsPage4PointOlowoora from "./Routes/ProjectsPage4PointOlowoora";
 import ProjectsPage4PointKosofe from "./Routes/ProjectsPage4PointKosofe";
+import ProjectsPageVgc from "./Routes/ProjectsPageVgc";
 
 function App() {
   const { pathname } = useLocation();
@@ -102,6 +103,8 @@ function App() {
           path="/ProjectsPage4PointKosofe"
           element={<ProjectsPage4PointKosofe />}
         />
+
+        <Route path="/ProjectsPageVgc" element={<ProjectsPageVgc />} />
       </Routes>
     </div>
   );

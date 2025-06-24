@@ -34,16 +34,15 @@ const ProjectsPicChiefObinna = () => {
             COMPLETED
           </p>
           <p className="aboutProject">
-            {/* We were engaged to provide MEP consultancy & Installation services
-            for a 12 Units of 4-Bedroom Semi-Detached duplex on 3-Floors, The
-            architectural design was carefully studied and state of the art and
-            modern applications in the MEP industry was utilized for the design
-            of the building <br />
+            We were engaged to provide MEP consultancy & Installation services
+            for a 5 bedroom duplex on 3-Floors, The architectural design was
+            carefully studied and state of the art and modern applications in
+            the MEP industry was utilized for the design of the building. <br />
             The plumbing services recommended for the building utlizes the top
             range obatainable in the industry, Electrical system put into
             consideration energy saving options for lighting and power
             generation, and the Air conditioning was carefully thought out and
-            design to meet industry energy efficiency standards. */}
+            design to meet industry energy efficiency standards.
           </p>
         </div>
 
