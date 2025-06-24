@@ -71,6 +71,7 @@ const ContactMain = () => {
         </div>
         <div className="divMaps">
           <iframe
+            className="maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63423.556107214754!2d3.2592395042613926!3d6.525187575755753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8fc97ee736a9%3A0x882ef3bdd48e7587!2sJakande%20Estate%2C%20Isolo!5e0!3m2!1sen!2sng!4v1750744985924!5m2!1sen!2sng"
             // width="600"
             // height="450"
