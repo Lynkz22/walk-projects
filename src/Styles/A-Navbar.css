@@ -161,7 +161,7 @@
     background-color: #000;
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: -100vh;
     left: 0;
     opacity: 0;
@@ -267,6 +267,13 @@
 
   .navbarItems {
     border-bottom: 1px solid rgba(24, 14, 127, 0.2);
+  }
+
+  .navMenu.active {
+    top: 0;
+    opacity: 1;
+    z-index: 9999;
+    transition: 1s ease-in-out;
   }
 }
 
