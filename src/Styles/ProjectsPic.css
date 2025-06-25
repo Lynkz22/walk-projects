@@ -95,11 +95,7 @@
 .aboutProject span {
   font-weight: 900;
   text-align: start;
-  background: linear-gradient(to right, #180e7f, #ff0000);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+color: #180e7f;
   font-size: 1.1rem;
   margin-right: 0.5rem;
 }
@@ -194,5 +190,18 @@
   .divImageText {
     width: 100vw;
     height: auto;
+  }
+
+  .aboutProject {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    line-height: 25px;
+  }
+
+  .aboutProject span {
+    font-weight: 900;
+    color: #180e7f;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
   }
 }
