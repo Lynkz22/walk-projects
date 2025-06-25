@@ -83,7 +83,7 @@ const ServicesList = () => {
               />
             </div>
             <div className="divServicesListText">
-              <h2 className="headingServicesListText">Ventilation</h2>
+              <h2 className="headingServicesListTextOne">Ventilation</h2>
               <p>
                 <p className="msText">
                   <ul className="msTextList">
@@ -209,7 +209,7 @@ const ServicesList = () => {
               />
             </div>
             <div className="divServicesListText">
-              <h2 className="headingServicesListText">
+              <h2 className="headingServicesListTextOne">
                 Fire Detection and Protection
               </h2>
               <p>
@@ -350,7 +350,7 @@ const ServicesList = () => {
               />
             </div>
             <div className="divServicesListText">
-              <h2 className="headingServicesListText">
+              <h2 className="headingServicesListTextOne">
                 Extra Low Voltage Services
               </h2>
               <p>
@@ -359,7 +359,7 @@ const ServicesList = () => {
                     <li>
                       <span className="msSpan">
                         <i class="fa-solid fa-circle"></i>
-                        Data & PABX Systems
+                        Data & Telephone Systems
                       </span>
                     </li>
                     <li>
@@ -398,7 +398,8 @@ const ServicesList = () => {
                     </li>
                     <li>
                       <span className="msSpan">
-                        <i class="fa-solid fa-circle"></i>DSTV / CATV Systems
+                        <i class="fa-solid fa-circle"></i>TV Distribution
+                        Systems
                       </span>
                     </li>
                     <li>

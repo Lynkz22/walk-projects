@@ -38,11 +38,31 @@
   text-align: start;
   font-family: "Poppins", cursive;
   letter-spacing: 2px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  color: #0a0e7c;
+  text-transform: uppercase;
+}
+
+.headingServicesListText {
+  text-align: start;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-align: start;
+  font-family: "Poppins", cursive;
+  letter-spacing: 2px;
+  color: #0a0e7c;
+  text-transform: uppercase;
+}
+
+.headingServicesListTextOne {
+  text-align: start;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  color: #f60707;
   text-transform: uppercase;
 }
 
@@ -50,6 +70,7 @@
   text-align: start;
   font-size: 0.9rem;
   line-height: 35px;
+  font-family: "Poppins", sans-serif;
 }
 
 .msTextList {
@@ -121,6 +142,14 @@
   }
 
   .headingServicesListText {
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: start;
+    letter-spacing: 0px;
+  }
+
+  .headingServicesListTextOne {
     margin: 0.5rem;
     font-size: 1rem;
     font-weight: 900;

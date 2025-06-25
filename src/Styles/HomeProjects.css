@@ -12,13 +12,12 @@
   text-align: start;
   font-family: "Poppins", cursive;
   letter-spacing: 5px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
+  /* background: linear-gradient(to right, #0000ff, #ff0000);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  color: #fe0000;
-  margin-bottom: 0.5em;
+  text-fill-color: transparent; */
+  color: #0e0e7b;
   text-transform: uppercase;
 }
 
@@ -93,9 +92,9 @@
 .divOfText p {
   font-size: 0.9rem;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 4px;
-  color: #0000ff;
+  color: #0e0e7b;
 }
 
 .divServicesAboutText-1 {

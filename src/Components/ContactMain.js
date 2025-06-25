@@ -59,7 +59,7 @@ const ContactMain = () => {
               ></textarea>
             </div>
             <button type="submit" className="sendit">
-              <p className="senditnow">Send </p>
+              <p className="senditnow">SEND </p>
               {/* <input type="submit" value="Send" className="senditnow" /> */}
             </button>
           </form>

@@ -29,7 +29,7 @@ const ProjectsPicG4Osborn = () => {
             />
           </div>
           <div className="divImageText">
-            <h1 className="headingImage">G4 Osborn</h1>
+            <h1 className="headingImage">G4 OSBOURNE</h1>
             <p className="textOfImage">DESIGN AND BUILD</p>
           </div>
         </div>

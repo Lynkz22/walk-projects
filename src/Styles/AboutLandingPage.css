@@ -40,12 +40,20 @@
   text-align: center;
   font-family: "Poppins", cursive;
   letter-spacing: 5px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
-  -webkit-background-clip: text;
+  /* background: linear-gradient(
+    to right,
+    #0e0e7b 0%,
+    #0e0e7b 40%,
+    #f60707 80%,
+    #f60707 100%
+  ); */
+
+  /* background: linear-gradient(to right, #0e0e7b, #f60707); */
+  /* -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  color: #fe0000;
+  text-fill-color: transparent; */
+  color: #f60707;
 }
 
 .textAboutLanding {

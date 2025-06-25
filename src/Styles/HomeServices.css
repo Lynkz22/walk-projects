@@ -22,12 +22,12 @@
   text-align: center;
   font-family: "Poppins", cursive;
   letter-spacing: 5px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
+  /* background: linear-gradient(to right, #0000ff, #ff0000);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  color: #fe0000;
+  text-fill-color: transparent; */
+  color: #f60707;
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
@@ -170,16 +170,18 @@
 
 .textHomeServices {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
   text-align: center;
   width: 100%;
   line-height: 30px;
   margin-top: 3rem;
+  font-family: "Poppins", cursive;
 }
 
 .textHomeSection {
   font-size: 0.9rem;
+  font-family: "Poppins", cursive;
 }
 
 @media screen and (max-width: 800px) {
@@ -200,7 +202,6 @@
 
   .textHomeSection {
     font-size: 0.7rem;
-    font-weight: 500;
     max-width: 85%;
     margin: auto;
     letter-spacing: 0px;
@@ -217,7 +218,7 @@
   }
 
   .animatedText {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
   }
 

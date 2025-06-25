@@ -32,12 +32,12 @@
   text-align: start;
   font-family: "Poppins", cursive;
   letter-spacing: 4px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
+  /* background: linear-gradient(to right, #0000ff, #ff0000);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  color: #fe0000;
+  text-fill-color: transparent; */
+  color: #0e0e7b;
 }
 
 .circular-shape {
@@ -50,10 +50,11 @@
   text-align: start;
   line-height: 35px;
   margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .ChooseContent span {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .divChooseButton {
@@ -64,22 +65,23 @@
 
 .buttonHomeChoose {
   border: none;
-  background-color: #fff;
   border-radius: 8px;
 }
 
 .textChooseButton {
   font-size: 0.8rem;
   color: #fff;
+  background-color: #fff;
   letter-spacing: 2px;
   padding: 1.1rem 2rem 1.1rem 2rem;
   color: #000;
   border-radius: 8px;
+  font-family: "Poppins", sans-serif;
 }
 
 .textChooseButton:hover {
   background-color: #000;
-  transition: 1.5s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
 .textChooseButton:hover {

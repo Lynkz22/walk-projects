@@ -8,12 +8,7 @@
   text-align: center;
   font-family: "Poppins", cursive;
   letter-spacing: 4px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  color: #fe0000;
+  color: #0e0e7b;
   text-transform: uppercase;
 }
 
@@ -48,7 +43,7 @@
     rgba(0, 0, 0, 1) 80%,
     rgba(0, 0, 0, 0)
   );
-  background-color: #d1c7bd;
+  background-color: navajowhite;
 }
 
 @keyframes scrollLeft {
@@ -163,7 +158,7 @@
       rgba(0, 0, 0, 1) 80%,
       rgba(0, 0, 0, 0)
     );
-    background-color: #d1c7bd;
+    background-color: navajowhite;
   }
 
   .item {
@@ -189,7 +184,7 @@
   align-items: center;
   justify-content: flex-start;
   height: 7rem;
-  background-color: #d1c7bd;
+  background-color: rgba(204, 218, 236, 0.411);
 }
 
 .scrolling-wrapper {

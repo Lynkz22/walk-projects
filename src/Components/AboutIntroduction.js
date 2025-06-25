@@ -34,8 +34,8 @@ const AboutIntroduction = () => {
         <div className="divOurCompany">
           <h2 className="headingOurCompany">Our Company</h2>
           <p className="textOurCompany">
-            At Walk Projects & Integrated Services, we have proudly served
-            clients across Nigeria for over 10 years, delivering expert
+            At Walk Projects & Integrated Services Company, we have proudly
+            served clients across Nigeria for over 10 years, delivering expert
             consultancy and installation services in Mechanical, HVAC (Heating,
             Ventilation & Air Conditioning), Electrical, Extra-Low Voltage
             (ELV), and Plumbing systems. We believe that every project deserves

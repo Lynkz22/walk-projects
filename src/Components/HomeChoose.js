@@ -50,7 +50,7 @@ const HomeChoose = () => {
           <div className="divChooseButton">
             <Link to="/About">
               <button className="buttonHomeChoose">
-                <p className="textChooseButton">About Us</p>
+                <p className="textChooseButton">ABOUT US</p>
               </button>
             </Link>
           </div>

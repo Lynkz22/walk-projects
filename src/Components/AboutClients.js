@@ -19,8 +19,8 @@ const AboutClients = () => {
         <div className="textClients">
           <h2>Our Clients & Partners</h2>
           <p>
-            Our area of practice is quite wide: design, graphics, branding,
-            development.
+            Our cients and partners are the heart of our M&E construction
+            collaborations.
           </p>
         </div>
         {/* <div className="wrapper">

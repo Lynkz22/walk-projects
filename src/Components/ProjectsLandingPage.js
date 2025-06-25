@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/AboutLandingPage.css";
-import ProjectHomeImageOne from "../Components/Assets/OduduwaHomes/OH6.jpg";
+import ProjectHomeImageOne from "../Components/Assets/MeridianTowers/MT13.jpg";
 
 const ProjectsLandingPage = () => {
   return (

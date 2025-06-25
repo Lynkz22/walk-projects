@@ -14,7 +14,8 @@ const HomeFooter = () => {
             src={Logo}
           />
           <p className="FooterText">
-            <span>Walk</span> Projects
+            WALK PROJECTS <br />
+            INTEGRATED SERVICES CO.
           </p>
         </div>
       </section>

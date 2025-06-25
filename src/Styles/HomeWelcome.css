@@ -27,10 +27,10 @@
 .heading {
   font-size: 1.2rem;
   text-align: start;
-  font-family: "Poppins", cursive;
   letter-spacing: 4px;
   color: #000;
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
 .divHeading h1 {
@@ -43,18 +43,19 @@
   text-align: start;
   font-family: "Poppins", cursive;
   letter-spacing: 8px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
+  background: linear-gradient(to right, #f60707, #f60707);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  color: #fe0000;
+  color: #f60707;
 }
 
 .welcomeContent {
   font-size: 0.9rem;
   text-align: start;
   line-height: 35px;
+  font-family: "Poppins", sans-serif;
 }
 
 .divWelcomeButton {
@@ -65,21 +66,24 @@
 
 .buttonHomeWelcome {
   border: none;
-  background-color: #fff;
   border-radius: 8px;
 }
 
 .textWelcomeButton {
   font-size: 0.8rem;
   color: #000;
+  background-color: #fff;
   letter-spacing: 2px;
   padding: 1.1rem 2rem 1.1rem 2rem;
   border-radius: 8px;
+  font-family: "Poppins", sans-serif;
 }
 
 .textWelcomeButton:hover {
   background-color: #000;
-  transition: 1.5s ease-in-out;
+  transition: 2s ease-in-out;
+  padding: 1.1rem 2rem 1.1rem 2rem;
+  border-radius: 8px;
 }
 
 .textWelcomeButton:hover {

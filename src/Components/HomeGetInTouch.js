@@ -33,7 +33,7 @@ const HomeGetInTouch = () => {
           >
             <Link to="/Contact">
               <button className="buttonGITChoose">
-                <p className="textGITButton">Get In Touch</p>
+                <p className="textGITButton">GET IN TOUCH</p>
               </button>
             </Link>
           </motion.div>

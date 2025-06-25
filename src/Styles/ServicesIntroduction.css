@@ -11,6 +11,7 @@
   text-align: start;
   margin: auto;
   line-height: 35px;
+  font-family: "Poppins", sans-serif;
 }
 
 @media only screen and (max-width: 800px) {

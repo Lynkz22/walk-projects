@@ -9,7 +9,7 @@ const AboutTeam = () => {
     <>
       <section className="sectionTeam">
         <div className="divTeamMembers">
-          <h1 className="divTeamMembersHeading">OUR TEAM MEMBERS</h1>
+          <h1 className="divTeamMembersHeadingNew">OUR TEAM MEMBERS</h1>
         </div>
         <AboutTeamKoya />
         <AboutTeamWale />

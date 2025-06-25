@@ -57,7 +57,7 @@ const ProjectsPictures = () => {
         <Link to="/ProjectsPageG4Osborn">
           <div className="divProjectImages">
             <img alt="HeroImg" src={Osborn} className="projectImages" />
-            <p className="textProjectName">G4 Osborn</p>
+            <p className="textProjectName">G4 Osbourne</p>
           </div>
         </Link>
 
@@ -105,16 +105,16 @@ const ProjectsPictures = () => {
       </section>
 
       <div className="divSpacing">
-        <h1 className="headingSectionProjectPictures">CONSULTING</h1>
+        <h1 className="headingSectionProjectPicturesOne">CONSULTING</h1>
       </div>
 
       <section className="sectionProjectPictures">
-        <Link to="/ProjectsPageChiefObinna">
+        {/* <Link to="/ProjectsPageChiefObinna">
           <div className="divProjectImages">
             <img alt="HeroImg" src={ChiefObinna} className="projectImages" />
             <p className="textProjectName">Chief Obinna</p>
           </div>
-        </Link>
+        </Link> */}
 
         <Link to="/ProjectsPageGarnet">
           <div className="divProjectImages">

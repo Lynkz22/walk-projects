@@ -98,21 +98,21 @@
   position: absolute;
   right: 10%;
   display: none;
-  color: #000;
+  /* color: #000; */
 }
 
 .navbarScrolled {
   background: #fff;
   transition: background 2s ease-in-out;
   .navLinks {
-    color: #000;
+    color: #0e0e7b;
   }
   .navBarName {
-    color: #000;
+    color: #0e0e7b;
   }
 
   .navBarName span {
-    color: #000;
+    color: #0e0e7b;
   }
 }
 
@@ -143,6 +143,7 @@
 @media screen and (max-width: 1000px) {
   .navbarItems {
     z-index: 9999;
+    position: relative;
   }
 
   .navbarItems {
@@ -195,12 +196,13 @@
 
   .menuIcons {
     display: block;
-    z-index: 9999;
+    z-index: 10000;
+    color: #0e0e7b;
   }
 
   .menuIcons i {
     font-size: 1.7rem;
-    color: #0000ff;
+    color: #0e0e7b;
     cursor: pointer;
   }
 
@@ -235,6 +237,21 @@
   .navBarName span {
     font-size: 0.8rem;
   }
+
+  .navbarScrolled {
+    background: #fff;
+    transition: background 2s ease-in-out;
+    .navLinks {
+      color: #fff;
+    }
+    .navBarName {
+      color: #0e0e7b;
+    }
+
+    .navBarName span {
+      color: #0e0e7b;
+    }
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -244,26 +261,23 @@
   }
 
   .divNameLogo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 0.5rem;
     position: absolute;
-    left: 0;
+    left: 1rem;
+    width: fit-content;
   }
 
   .navbarLogoImage {
     width: 2rem;
-    height: 2rem;
+    height: 4rem;
     display: block !important;
     visibility: visible !important;
   }
 
   .navBarName {
     font-size: 0.6rem;
-  }
-
-  .navBarName span {
-    font-size: 0.8rem;
   }
 
   .navbarItems {
@@ -275,11 +289,13 @@
     opacity: 1;
     z-index: 9999;
     transition: 1s ease-in-out;
+    color: #fff;
   }
 }
 
 .navLinks {
   font-size: 0.7rem;
+  color: #fff;
 }
 
 .navBarName {
@@ -289,8 +305,22 @@
   font-weight: 700;
 }
 
-.navBarName span {
-  font-size: 0.7rem;
-  font-style: italic;
-  text-transform: capitalize;
+@media screen and (max-width: 500px) {
+  .divNameLogo {
+    gap: 0.2rem;
+  }
+
+  .navBarName {
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-align: start;
+  }
+
+  .fa-times {
+    color: #fff;
+  }
+
+  .fas .fa-bars-staggered {
+    color: #fff;
+  }
 }

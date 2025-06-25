@@ -14,12 +14,18 @@
   text-align: center;
   font-family: "Poppins", cursive;
   letter-spacing: 3px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  color: #fe0000;
+  color: #0e0e7b;
+  margin-bottom: 3rem;
+}
+
+.headingSectionProjectPicturesOne {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Poppins", cursive;
+  letter-spacing: 3px;
+  color: #f60707;
   margin-bottom: 3rem;
 }
 
@@ -71,6 +77,16 @@
   text-transform: uppercase;
 }
 
+.aboutProject {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  width: 100%;
+  line-height: 35px;
+  font-family: "Poppins", cursive;
+}
+
 @media only screen and (max-width: 800px) {
   .sectionProjectPictures {
     width: 100%;
@@ -87,6 +103,12 @@
   }
 
   .headingSectionProjectPictures {
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+  }
+
+  .headingSectionProjectPicturesOne {
     font-size: 1rem;
     letter-spacing: 3px;
     margin-bottom: 2rem;

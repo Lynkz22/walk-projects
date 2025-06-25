@@ -29,7 +29,7 @@ const HomeWelcome = () => {
           <div className="divWelcomeButton">
             <Link to="/About">
               <button className="buttonHomeWelcome">
-                <p className="textWelcomeButton">About Us</p>
+                <p className="textWelcomeButton">ABOUT US</p>
               </button>
             </Link>
           </div>

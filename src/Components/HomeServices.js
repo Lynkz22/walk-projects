@@ -10,11 +10,6 @@ const HomeServices = () => {
         <div className="divHomeServicesText">
           <h2 className="headingHomeServices">Our Services</h2>
           <p className="textHomeSection">
-            {/* We understand that every project is unique, and so are your needs.
-            We take a personal approach, working closely with you to deliver the
-            vital services that power your success. Consider us your committed
-            partners, here to ensure your building runs smoothly, efficiently,
-            and exactly as you envisioned. */}
             Every space has its own unique demands, and we're here to meet them
             with precision and care. Through a hands-on, tailored approach, we
             deliver essential services that keep your building operating

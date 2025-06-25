@@ -8,8 +8,14 @@
   width: 100vw;
   height: 25vh;
   margin: 0 auto;
-  background-color: #000;
-  filter: brightness(0.8);
+  background: linear-gradient(
+    to right,
+    #0e0e7b 0%,
+    #0e0e7b 40%,
+    #f60707 80%,
+    #f60707 100%
+  );
+  filter: brightness(0.7);
   position: absolute;
 }
 
@@ -28,7 +34,9 @@
 
 .FooterText {
   justify-self: left;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
   color: #fff;
   text-align: left;
   justify-content: start;
@@ -36,20 +44,13 @@
   text-transform: uppercase;
 }
 
-.FooterText span {
-  font-weight: 500;
-  font-size: 1.8rem;
-  color: #fff;
-  justify-self: start;
-  text-align: left;
-}
-
 .footerLogoImage {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   object-fit: contain;
   cursor: pointer;
   justify-self: right;
+  margin-right: 0.5rem;
 }
 
 @media only screen and (max-width: 800px) {

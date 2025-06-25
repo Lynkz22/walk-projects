@@ -18,23 +18,14 @@
   text-align: start;
   font-family: "Poppins", cursive;
   letter-spacing: 5px;
-  background: linear-gradient(to right, #0000ff, #ff0000);
+  /* background: linear-gradient(to right, #0000ff, #ff0000);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  color: #fe0000;
+  text-fill-color: transparent; */
+  color: #f60707;
   margin-bottom: 0.5em;
   text-transform: uppercase;
-}
-
-.divServicesHead-3::after {
-  content: "";
-  width: 2.4em;
-  height: 9px;
-  background: #fe0000;
-  display: block;
-  transition: 0.5s;
 }
 
 .sectionMission {
@@ -101,7 +92,7 @@
 .divMission-1 {
   width: 30%;
   min-height: 100%;
-  background-color: #e10600;
+  background-color: #f60707;
   padding: 3em 1.5em;
   display: flex;
   flex-direction: column;
@@ -114,7 +105,7 @@
   transition: transform 2s ease-in-out;
   transform: scale(1.03);
   transition: 2s;
-  background-color: #e10600;
+  background-color: #f60707;
 }
 
 .missionName-1 {
