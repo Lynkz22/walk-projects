@@ -199,6 +199,20 @@
   .textGITButton {
     font-size: 0.7rem;
     letter-spacing: 0px;
-    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+    /* padding: 0.8rem 1.8rem 0.8rem 1.8rem; */
+    border-radius: 1px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .buttonGITChoose {
+    font-size: 0.7rem;
+    letter-spacing: 0px;
+    padding: .3rem .4rem;
+    border-radius: 4px;
+  }
+
+  .divGITButton {
+    margin: 0 0 0 0;
   }
 }

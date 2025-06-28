@@ -116,7 +116,7 @@
   }
 
   .teamMembersName h1 {
-    font-size: 5rem;
+    font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
   }
@@ -155,5 +155,12 @@
     font-size: 0.7rem;
     line-height: 25px;
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .teamMembersName h1 {
+    font-size: 0.7rem;
+    text-align: center;
   }
 }

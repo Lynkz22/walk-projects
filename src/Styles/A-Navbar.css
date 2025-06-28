@@ -160,7 +160,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: #f60707;
+    filter: brightness(0.9);
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -172,7 +173,7 @@
     margin: auto;
     text-align: center;
     transition: 0.3s ease-in-out;
-    border-radius: 30px;
+    /* border-radius: 30px; */
   }
 
   .navLinksList:hover::after {
@@ -197,7 +198,7 @@
   .menuIcons {
     display: block;
     z-index: 10000;
-    color: #0e0e7b;
+    color: #fff;
   }
 
   .menuIcons i {

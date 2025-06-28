@@ -10,6 +10,8 @@ import Vgc6 from "../Components/Assets/VGC/Vgc6.webp";
 import Vgc7 from "../Components/Assets/VGC/Vgc7.webp";
 import Vgc8 from "../Components/Assets/VGC/Vgc8.webp";
 import Vgc9 from "../Components/Assets/VGC/Vgc9.webp";
+import Vgc10 from "../Components/Assets/VGC/Vgc10.jpg";
+import Vgc11 from "../Components/Assets/VGC/Vgc11.jpg";
 
 const ProjectsPicVgc = () => {
   return (
@@ -80,6 +82,12 @@ const ProjectsPicVgc = () => {
           </div>
           <div className="divProjectImagesOf">
             <img alt="HeroImg" src={Vgc9} className="projPicImageOf" />
+          </div>
+          <div className="divProjectImagesOf">
+            <img alt="HeroImg" src={Vgc10} className="projPicImageOf" />
+          </div>
+          <div className="divProjectImagesOf">
+            <img alt="HeroImg" src={Vgc11} className="projPicImageOf" />
           </div>
         </div>
       </section>

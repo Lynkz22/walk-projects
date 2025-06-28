@@ -82,6 +82,8 @@
   color: #fff;
   transition: all 1s ease-in-out;
   text-transform: uppercase;
+    font-family: "Poppins", cursive;
+
 }
 
 .serv {
@@ -235,7 +237,6 @@
     font-size: 0.7rem;
     line-height: 25px;
     margin-top: 3rem;
-    line-height: normal;
     letter-spacing: 0px;
     width: 90%;
   }

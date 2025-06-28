@@ -20,8 +20,8 @@ const AboutTeamAdmin = () => {
             <b>Eniola</b> holds a Bachelor's degree in French and International
             Studies from Osun State University and a Masters in Business
             Administration from Nexford University, Washington DC, United States
-            of America. She also has a certification in Human resource business
-            professional "HRBP". Eniola is a diligent and highly proficient
+            of America. She also has a certification in Human Resource Business
+            Professional "HRBP". Eniola is a diligent and highly proficient
             admistrative professional in qualiity assurance,supporting and
             devising strategies to effectively run an organization.
           </p>

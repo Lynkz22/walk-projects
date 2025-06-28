@@ -56,11 +56,22 @@ const AboutIntroduction = () => {
         </div>
 
         <div className="divOurCompany">
-          <h2 className="headingOurCompany">Our Core Values</h2>
+          <h2 className="headingOurCompany">Our Edge</h2>
           <p className="textOurCompany">
             We are a group of highly trained personel with professional
             qualifications from several engineering bodies, we are solely driven
             by our core values, which brings out the best in our job delivery.
+          </p>
+        </div>
+
+        <div className="divOurCompany">
+          <h2 className="headingOurCompany">Our Core Values</h2>
+          <p className="textOurCompany">
+            We are a team of certified professionals, shaped by discipline and
+            excellence. Guided by our principles, we uphold the highest
+            standards in every aspect of MEP engineering—from concept to
+            execution. Our values aren't just ideals; they are the backbone of
+            every solution we deliver.
           </p>
         </div>
 

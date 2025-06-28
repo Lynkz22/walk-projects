@@ -74,12 +74,13 @@
 }
 
 .msTextList {
-  list-style: none;
+  /* list-style: none; */
   gap: 3rem;
 }
 
 .msTextList li {
   gap: 3rem;
+  text-align: start;
 }
 
 .msSpan {
@@ -90,6 +91,7 @@
 
 .fa-circle {
   font-size: 0.4rem;
+  display: none;
 }
 
 .msSpan i {
